@@ -1,0 +1,32 @@
+What Is a String in JavaScript, and What Is String Immutability?
+
+In JavaScript, a string is a sequence of characters used to represent text data. 
+Strings are one of the primitive data types in the language, along with numbers, booleans, null, and undefined.
+To create a string in JavaScript, you can use single quotes (') or double quotes (").
+
+Another thing to take into account is that strings are immutable. In programming, immutability means that once something is created, it cannot be changed. So, when you create a string, you can't change its characters directly. Instead, you would create a new string if you want to make changes.
+Here is an example of trying to change the first character of a string, which throws an error:
+let developer = "Jessica";
+developer[0] = "M";
+To change the value, you assign a whole new string to the developer variable:
+developer = "Quincy";
+
+Questions
+
+Which of the following is the correct syntax for creating strings in JavaScript?
+const str = <this is a string>
+const str = [this is a string]
+const str = "this is a string" (Correct)
+const str = //this is a string//
+
+What happens if a string starts with a single quote and ends with a double quote?
+It creates a valid string.
+It will throw a syntax error. (Correct)
+It creates a string with both quotes.
+It will be ignored by the JavaScript interpreter.
+
+Why are strings considered immutable in JavaScript?
+You cannot create strings using variables.
+Once a string is created, you cannot change its characters directly. (Correct)
+Strings can only be created using literals.
+You can change strings, but only through global variables.
