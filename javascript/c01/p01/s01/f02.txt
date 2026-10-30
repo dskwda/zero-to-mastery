@@ -1,0 +1,37 @@
+What Is a Data Type, and What Are the Different Data Types in JavaScript?
+
+In JavaScript, a data type is the kind of value you store, like a number or piece of text.
+A variable is a named container that stores a value of a specific data type, allowing you to reference and manipulate it throughout your code.
+
+console.log() is a function that outputs information to the console, which is a part of your web browser used for debugging code.
+
+Number, String, Boolean, undefined and null, Object, Symbol, and BigInt
+
+A Number represents both integers and floating-point values.
+A String is a sequence of characters, or text, enclosed in quotes. 
+A Boolean represents one of two values: true or false.
+undefined means a variable has been declared but hasn't been given a value yet.
+null means the variable has been intentionally set to "nothing" and does not hold any value. 
+Objects are great for grouping related information together.
+A Symbol is a special type of value in JavaScript that is always unique and cannot be changed. 
+BigInt is used for very large numbers that exceed the limit of the Number type.
+
+Questions
+
+Which of the following is a string data type?
+"Hello!" (Correct)
+42
+false
+null
+
+What data type represents a value that is either true or false?
+Number
+String
+Boolean (Correct)
+undefined
+
+If a variable has been declared but not assigned a value, what is its data type?
+String
+Number
+undefined (Correct)
+null
