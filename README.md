@@ -1,5 +1,5 @@
 # zero-to-mastery
-- ⚡ Fun fact: A journey toward mastering JavaScript and Python.
+- ⚡ A journey toward mastering JavaScript and Python.
 
 ## 🛠️ Tech Stack
 <table>
