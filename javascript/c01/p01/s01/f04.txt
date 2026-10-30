@@ -1,0 +1,41 @@
+How Do let and const Work Differently When It Comes to Variable Declaration, Assignment, and Reassignment?
+
+In modern JavaScript, let and const are the preferred ways to declare variables, but they differ in how they handle value assignment and reassignment.
+
+The let keyword allows you to declare variables that can be updated or reassigned later. You can think of let as a flexible container: once you've stored a value in it, you can change that value as needed throughout your program.
+Here's an example of declaring and assigning a variable with let:
+let score = 10;
+
+On the other hand, const is used to declare variables that are constant. Once you assign a value to a variable declared with const, you cannot reassign it.
+This makes const ideal for values that you don't want to change accidentally during the execution of your program.
+
+Trying to reassign a value to a const variable will throw an error in your JavaScript console, as const variables are immutable once they are assigned.Trying to reassign a value to a const variable will throw an error in your JavaScript console, as const variables are immutable once they are assigned.
+While a variable declared with let can be reassigned, it cannot be redeclared. If you try to declare the same variable again using let, you will get an error:
+
+The same applies to const: a variable declared with const cannot be redeclared either.
+Variables declared with const must be assigned a value at the time of declaration. If you try to declare a const variable without assigning it a value, you will get an error:
+
+You should use let when you need to declare variables that will be reassigned later. For example, tracking a changing score or updating a value over time in your program.
+Use const when you want to declare variables that should remain constant, like configuration values or settings that shouldn't be changed accidentally.
+
+You can also use the var keyword, but it's not as recommended anymore. The var keyword is kind of like let, except it has a wider scope, which is more likely to cause problems in your program.
+
+Questions
+
+What happens if you try to reassign a value to a variable declared with const?
+The value will change without issue.
+The original value will be updated, but a warning will be issued.
+An error will be thrown because const variables cannot be reassigned. (Correct)
+The new value will be ignored, and the original value will stay the same.
+
+Which of the following is the correct way to assign the number 100 to a constant named maxScore?
+const maxScore === 100;
+const maxScore = 100; (Correct)
+const maxScore <= 100;
+const maxScore == 100;
+
+Can you declare a const variable without assigning it a value?
+Yes, but you must assign a value later.
+No, const variables must be initialized at the time of declaration. (Correct)
+Yes, but you can only assign a number as the initial value.
+No, const variables must be declared and reassigned in the same line.
