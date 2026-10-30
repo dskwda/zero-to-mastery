@@ -1,183 +1,124 @@
-1. Python fundamentals
-Module 1 — Introduction to Python
-- Setting up Python and the development environment
-- Installing, configuring, and using Python locally
-- Running Python programs
-- Writing your first Python program
-- Understanding the Python interpreter
+Python Certification – Complete Table of Contents
 
-Module 2 — Variables and data types
-- Declaring variables
-- Variable naming conventions
-- Assigning and updating values
-- Understanding common Python data types
-- Checking data types with type()
-- Working with integers and floating-point numbers
-- Converting between data types
-- Understanding dynamic typing
+1. Python Basics
+1. Lecture: Introduction to Python
+2. Lecture: Understanding Variables and Data Types
+3. Workshop: Report Card Printer
+4. Lecture: Introduction to Python Strings
+5. Workshop: Employee Profile Generator
+6. Workshop: Employee Profile Validator
+7. Lecture: Numbers and Mathematical Operations
+8. Workshop: Bill Splitter
+9. Lecture: Booleans and Conditionals
+10. Workshop: Movie Ticket Booking Calculator
+11. Lab: Travel Weather Planner
+12. Lecture: Understanding Functions and Scope
+13. Workshop: Kitchen Inventory Tracker
+14. Lab: Discount Calculator
+15. Workshop: Caesar Cipher
+16. Lab: RPG Character
+17. Review: Python Basics
+18. Quiz: Python Basics
 
-Module 3 — Strings
-- Creating strings
-- String indexing
-- Accessing individual characters
-- String slicing
-- Finding string length
-- String concatenation
-- String interpolation
-- Formatting strings
-- Working with common string methods
+2. Python Installation
+1. Lecture: Python Installation
+2. Review: Python Installation
+3. Quiz: Python Installation
 
-Module 4 — Booleans and conditionals
-- Boolean values: True and False
-- Comparison operators
-- Logical operators: and, or, and not
-- Truthy and falsy values
-- Conditional statements
-- if, elif, and else
-- Nested conditionals
-- Short-circuit evaluation
+3. Python Loops and Sequences
+1. Lecture: Working with Loops and Sequences
+2. Workshop: PIN Extractor
+3. Lab: Number Pattern Generator
+4. Review: Loops and Sequences
+5. Quiz: Loops and Sequences
 
-Module 5 — Loops
-- Understanding iteration
-- for loops
-- while loops
-- Loop conditions
-- range()
-- break and continue
-- Nested loops
-- Iterating over sequences
+4. Python Dictionaries and Sets
+1. Lecture: Working with Dictionaries and Sets
+2. Lecture: Working with Modules
+3. Workshop: Medical Data Validator
+4. Review: Dictionaries and Sets
+5. Quiz: Dictionaries and Sets
 
-Module 6 — Lists
-- Creating lists
-- Accessing and updating elements
-- Indexing and slicing
-- Adding and removing elements
-- Common list methods
-- Iterating over lists
-- List comprehensions
-- Useful functions for working with lists
+5. Certification Project: User Configuration Manager
+1. Lab: User Configuration Manager
 
-Module 7 — Tuples
-- Creating tuples
-- Accessing tuple elements
-- Tuple indexing and slicing
-- Tuple immutability
-- Tuple methods
-- Working with tuple values
+6. Python Error Handling
+1. Lecture: Understanding Error Handling
+2. Lab: ISBN Validator
+3. Review: Error Handling
+4. Quiz: Error Handling
 
-Module 8 — Dictionaries
-- Creating dictionaries
-- Keys and values
-- Accessing dictionary values
-- Adding, updating, and removing entries
-- Iterating over dictionaries
-- Dictionary methods
-- Nested dictionaries
+7. Python Classes and Objects
+1. Lecture: Classes and Objects
+2. Workshop: Musical Instrument Inventory
+3. Lab: Planet Class
+4. Workshop: Email Simulator
+5. Review: Classes and Objects
+6. Quiz: Classes and Objects
 
-Module 9 — Sets
-- Creating sets
-- Understanding unique elements
-- Adding and removing elements
-- Set operations
-- Union
-- Intersection
-- Difference
-- Symmetric difference
+8. Certification Project: Budget App
+1. Lab: Budget App
 
-2. Object-oriented programming and error handling
-Module 10 — Error handling
-- Understanding Python errors
-- Syntax errors and runtime errors
-- Exceptions
-- try and except
-- Handling different exception types
-- Using else and finally
-- Raising exceptions
+9. Python Object-Oriented Programming
+1. Lecture: Understanding Object-Oriented Programming and Encapsulation
+2. Workshop: Salary Tracker
+3. Lab: Game Character Stats
+4. Lecture: Understanding Inheritance and Polymorphism
+5. Workshop: Media Catalogue
+6. Lecture: Understanding Abstraction
+7. Workshop: Discount Calculator
+8. Lab: Player Interface
+9. Review: Object-Oriented Programming
+10. Quiz: Object-Oriented Programming
 
-Module 11 — Classes and objects
-- Understanding classes and objects
-- Defining classes
-- Creating instances
-- Constructors and __init__()
-- Instance attributes
-- Class attributes
-- Instance methods
-- Object attributes and their behavior
+10. Certification Project: Polygon Area Calculator
+1. Lab: Polygon Area Calculator
 
-Module 12 — Object-oriented programming
-- Understanding object-oriented programming
-- Encapsulation
-- Abstraction
-- Inheritance
-- Polymorphism
-- Special methods
-- Getters and setters
-- Dynamically handling object attributes
+11. Python Linear Data Structures
+1. Lecture: Working with Common Data Structures
+2. Workshop: Linked List Class
+3. Review: Data Structures
+4. Quiz: Data Structures
 
-3. Data structures and algorithms
-Module 13 — Linear data structures
-- Understanding linear data structures
-- Arrays and lists
-- Stacks
-- Queues
-- Linked lists
-- Implementing common data structure operations
+12. Certification Project: Hash Table
+1. Lab: Hash Table
 
-Module 14 — Algorithms and complexity
-- Understanding algorithms
-- Algorithm efficiency
-- Time complexity
-- Space complexity
-- Big O notation
-- Comparing algorithm performance
+13. Python Recursion
+1. Lecture: Understanding Recursion and the Call Stack in Python
+2. Workshop: Countup (Python)
+3. Lab: Range of Numbers (Python)
+4. Review: Recursion (Python)
+5. Quiz: Recursion (Python)
 
-Module 15 — Searching and sorting algorithms
-- Linear search
-- Binary search
-- Sorting fundamentals
-- Common sorting algorithms
-- Comparing searching and sorting approaches
+14. Python Algorithms
+1. Lecture: Searching and Sorting Algorithms
+2. Workshop: Binary Search
+3. Lab: Bisection Method
+4. Workshop: Merge Sort
+5. Lab: Quicksort
+6. Lab: Selection Sort
+7. Lab: Luhn Algorithm
+8. Review: Searching and Sorting Algorithms
+9. Quiz: Searching and Sorting Algorithms
 
-Module 16 — Graphs and trees
-- Understanding graphs
-- Nodes and edges
-- Directed and undirected graphs
-- Graph representations
-- Adjacency matrices
-- Adjacency lists
-- Understanding trees
-- Breadth-first search
-- Depth-first search
-- Shortest-path algorithms
-- Priority queues and heaps
+15. Certification Project: Tower of Hanoi
+1. Lab: Tower of Hanoi
 
-Module 17 — Dynamic programming
-- Understanding dynamic programming
-- Breaking problems into smaller subproblems
-- Overlapping subproblems
-- Memoization
-- Tabulation
-- Applying dynamic programming to algorithmic problems
+16. Python Graphs and Trees
+1. Lecture: Understanding Graphs and Trees
+2. Workshop: Shortest Path Algorithm
+3. Lab: Adjacency List to Matrix Converter
+4. Workshop: Breadth-First Search
+5. Lab: Depth-First Search
+6. Lab: N-Queens Problem
+7. Review: Graphs and Trees
+8. Quiz: Graphs and Trees
 
-4. Verified lesson titles and course projects
-Some exact titles from the course's published lesson material include:
-- How Do You Install, Configure and Use Python in Your Local Environment?
-- How Do You Declare Variables and What Are Naming Conventions to Name Variables?
-- What Are Common Data Types in Python and How Do You Get the Type of a Variable?
-- How Do You Work with Integers and Floating-Point Numbers?
-- How Do Conditional Statements and Logical Operators Work?
-- How Do Loops Work?
-- What Are Lists and How Do They Work?
-- What Are List Comprehensions and What Are Some Useful Functions to Work With Lists?
-- What Are Some Common Methods Used for Lists?
-- What Are Sets, and How Do They Work?
-- How Do Classes Work and How Do They Differ From Objects?
-- What Is Abstraction and How Does It Help Keep Complex Systems Organized?
-- What Are Special Methods and What Are They Used For?
-- How to Handle Object Attributes Dynamically?
-- What Is an Algorithm and How Does Big O Notation Work?
-- What Is Binary Search and How Does It Differ From Linear Search?
-- What Are Graphs in Computer Science?
-- How Do Matrices and Adjacency Lists Work?
-- How Do Depth-First and Breadth-First Search Work?
-- How Do Priority Queues and Heaps Work?
+17. Python Dynamic Programming
+1. Lecture: Understanding Dynamic Programming
+2. Lab: Nth Fibonacci Number
+3. Review: Dynamic Programming
+4. Quiz: Dynamic Programming
+
+18. Python Review
+1. Review: Python
