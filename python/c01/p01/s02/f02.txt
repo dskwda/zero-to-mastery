@@ -1,0 +1,34 @@
+How Does the Print Function Work?
+
+The terminal is the area where you can see text output from a program.
+The print() function sends text and other values to the terminal.
+You just need to put the string Hello world! in between the opening and closing parentheses you use to call the print function:
+print('Hello world!') # Hello world!
+
+You can also use the print function to show multiple values, or arguments, at once by separating them with commas.
+print('My favorite colors are', 'blue', 'green', 'red')
+# Output: My favorite colors are blue green red
+
+Questions
+
+Why does the following code print all the values on the same line with spaces?
+print('My favorite colors are', 'blue', 'green', 'red')
+Because separating values with commas in print() adds spaces between them. (Correct)
+Because strings are automatically joined together with no separator.
+Because each call to print() adds a space by default.
+Because Python automatically converts all strings to uppercase in output.
+
+What would the output of the following code be?
+print('Hello', 'world!')
+Hello world! (Correct)
+Helloworld!
+Hello, world!
+Hello\nworld!
+
+What is the purpose of the quotation marks around Hello world! in the following code?
+print('Hello world!')
+They define a string to be printed by the print() function. (Correct)
+They are used to call a function named Hello world!.
+They are required only if the string contains spaces.
+They let Python know to print a variable named Hello world!.
+
