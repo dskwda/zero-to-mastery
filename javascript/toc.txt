@@ -1,0 +1,305 @@
+JavaScript v9 — Detailed Table of Contents
+Chapter 1 — JavaScript
+1. Variables and Strings
+1. Lecture: Introduction to JavaScript
+2. Lecture: Introduction to Strings
+3. Lecture: Understanding Code Clarity
+4. Workshop: Greeting Bot
+5. Lab: JavaScript Trivia Bot
+6. Lab: Sentence Maker
+7. Lecture: Working with Data Types
+8. Review: JavaScript Variables and Data Types
+9. Quiz: JavaScript Variables and Data Types
+10. Lecture: Working with Strings in JavaScript
+11. Workshop: Teacher Chatbot
+12. Lecture: Working with String Character Methods
+13. Lecture: Working with String Search and Slice Methods
+14. Workshop: String Inspector
+15. Lecture: Working with String Formatting Methods
+16. Workshop: String Formatter
+17. Lecture: Working with String Modification Methods
+18. Workshop: String Transformer
+19. Review: JavaScript Strings
+20. Quiz: JavaScript Strings
+
+2. Booleans and Numbers
+1. Lecture: Working with Numbers and Arithmetic Operators
+2. Lab: Debug Type Coercion Errors
+3. Lecture: Working with Operator Behavior
+4. Lab: Debug Increment and Decrement Operator Errors
+5. Lecture: Working with Comparison and Boolean Operators
+6. Workshop: Logic Checker App
+7. Lecture: Working with Unary and Bitwise Operators
+8. Lecture: Working with Conditional Logic and Math Methods
+9. Workshop: Mathbot
+10. Lab: Fortune Teller
+11. Lecture: Working with Numbers and Common Number Methods
+12. Review: JavaScript Math
+13. Quiz: JavaScript Math
+14. Lecture: Understanding Comparisons and Conditionals
+15. Review: JavaScript Comparisons and Conditionals
+16. Quiz: JavaScript Comparisons and Conditionals
+
+3. Functions
+1. Lecture: Working with Functions
+2. Workshop: Calculator
+3. Lab: Boolean Check
+4. Lab: Email Masker
+5. Workshop: Loan Qualification Checker
+6. Lab: Celsius to Fahrenheit Converter
+7. Lab: Counting Cards
+8. Lab: Leap Year Calculator
+9. Lab: Truncate String
+10. Lab: String Ending Checker
+11. Review: JavaScript Functions
+12. Quiz: JavaScript Functions
+
+4. Arrays
+1. Lecture: Working with Arrays
+2. Workshop: Shopping List
+3. Lab: Lunch Picker Program
+4. Lab: Golf Score Translator
+5. Lecture: Working with Common Array Methods
+6. Review: JavaScript Arrays
+7. Quiz: JavaScript Arrays
+
+5. Objects
+1. Lecture: Introduction to JavaScript Objects and Their Properties
+2. Workshop: Wildlife Tracker
+3. Lab: Cargo Manifest Validator
+4. Lecture: Working with JSON
+5. Lecture: Working with Optional Chaining and Object Destructuring
+6. Workshop: Recipe Tracker
+7. Lab: Quiz Game
+8. Lab: Record Collection
+9. Workshop: Artifact Provenance Auditor
+10. Review: JavaScript Objects
+11. Quiz: JavaScript Objects
+
+6. Loops
+1. Lecture: Working with Loops
+2. Workshop: Word Counter
+3. Lab: Factorial Calculator
+4. Lab: Repeat a String
+5. Workshop: Sentence Analyzer
+6. Lab: Longest Word in a String
+7. Lab: Mutations
+8. Lab: Missing Letter Detector
+9. Lab: Profile Lookup
+10. Workshop: Space Mission Roster
+11. Lab: Chunky Monkey
+12. Lab: Device Loan Ledger
+13. Workshop: Heritage Library Catalog
+14. Lab: Smart Pantry Restocker
+15. Workshop: Festival Crowd Flow Simulator
+16. Lab: Traffic Light Sequencer
+17. Workshop: Campus Directory Normalizer
+18. Lab: Proofreading Tool
+19. Review: JavaScript Loops
+20. Quiz: JavaScript Loops
+
+7. JavaScript Fundamentals Review
+1. Lecture: Working with Types and Objects
+2. Lecture: Working with Arrays, Variables and Naming Practices
+3. Lecture: Working with Code Quality and Execution Concepts
+4. Lab: Reverse a String
+5. Lab: Largest Number Finder
+6. Lab: First Element Finder
+7. Lab: Slice and Splice
+8. Lab: Pyramid Generator
+9. Lab: Gradebook App
+10. Lab: Story Fragment Restoration
+11. Lecture: The var Keyword and Hoisting
+12. Lab: Title Case Converter
+13. Lab: Falsy Remover
+14. Lab: Inventory Management Program
+15. Lecture: Understanding Modules, Imports and Exports
+16. Lecture: Working with the Arguments Object and Rest Parameters
+17. Lab: Unique Sorted Union
+18. Lab: Password Generator
+19. Lab: Sum All Numbers Algorithm
+20. Lab: DNA Pair Generator
+21. Lab: HTML Entity Converter
+22. Lab: Odd Fibonacci Sum Calculator
+23. Lab: Element Skipper
+24. Lab: Playlist Remix Engine
+25. Review: JavaScript Fundamentals
+26. Quiz: JavaScript Fundamentals
+
+8. Higher-Order Functions and Callbacks
+1. Lecture: Working with Higher-Order Functions and Callbacks
+2. Workshop: Library Manager
+3. Lab: Book Organizer
+4. Lab: Sorted Index Finder
+5. Lab: Symmetric Difference
+6. Lab: Value Remover Function
+7. Lab: Matching Object Filter
+8. Lab: Range-Based LCM Calculator
+9. Lab: Deep Flattening Tool
+10. Lab: All True Property Validator
+11. Review: JavaScript Higher-Order Functions
+12. Quiz: JavaScript Higher-Order Functions
+
+9. DOM Manipulation and Events
+1. Lecture: Working with the DOM, Click Events and Web APIs
+2. Workshop: Storytelling App
+3. Workshop: Emoji Reactor
+4. Lab: Favorite Icon Toggler
+5. Lecture: Understanding the Event Object and Event Delegation
+6. Workshop: Music Instrument Filter
+7. Lab: Real-Time Counter
+8. Lab: Lightbox Viewer
+9. Workshop: Rock Paper Scissors Game
+10. Lab: Football Team Cards
+11. Review: DOM Manipulation and Click Events with JavaScript
+12. Quiz: DOM Manipulation and Click Events with JavaScript
+
+10. JavaScript and Accessibility
+1. Lecture: Understanding aria-expanded, aria-live and Common ARIA States
+2. Workshop: Planets Tablist
+3. Workshop: Note-Taking App
+4. Lab: Theme Switcher
+5. Review: JavaScript Accessibility
+6. Quiz: JavaScript Accessibility
+
+11. Debugging JavaScript
+1. Lecture: Debugging Techniques
+2. Workshop: Library Search
+3. Lab: Random Background Color Changer
+4. Review: Debugging JavaScript
+5. Quiz: Debugging JavaScript
+
+12. Basic Regular Expressions (Regex)
+1. Lecture: Working with Regular Expressions
+2. Workshop: Spam Filter
+3. Lab: Palindrome Checker
+4. Lab: Regex Sandbox
+5. Lab: Spinal Case Converter
+6. Lab: Pig Latin
+7. Lab: Smart Word Replacement
+8. Review: JavaScript Regular Expressions
+9. Quiz: JavaScript Regular Expressions
+
+13. Markdown to HTML Converter
+Certification project
+1. Project: Build a Markdown to HTML Converter
+
+14. Form Validation
+1. Lecture: Understanding Form Validation
+2. Workshop: Envelope Budget App
+3. Lab: Customer Complaint Form
+4. Review: Form Validation with JavaScript
+5. Quiz: Form Validation with JavaScript
+
+15. JavaScript Dates
+1. Lecture: Working with Dates
+2. Lab: Date Conversion
+3. Review: JavaScript Dates
+4. Quiz: JavaScript Dates
+
+16. Audio and Video Events
+1. Lecture: Working with Audio and Video
+2. Workshop: Music Player
+3. Review: JavaScript Audio and Video
+4. Quiz: JavaScript Audio and Video
+
+17. Drum Machine
+Certification project
+1. Project: Build a Drum Machine
+
+18. Maps and Sets
+1. Lecture: Working with Maps and Sets
+2. Workshop: Plant Nursery Catalog
+3. Review: JavaScript Maps and Sets
+4. Quiz: JavaScript Maps and Sets
+
+19. Voting System
+Certification project
+1. Project: Build a Voting System
+
+20. Local Storage and CRUD Operations
+1. Lecture: Working with Client-Side Storage and CRUD Operations
+2. Workshop: Todo App
+3. Lab: Bookmark Manager App
+4. Review: Local Storage and CRUD
+5. Quiz: Local Storage and CRUD
+
+21. Classes and the this Keyword
+1. Lecture: Understanding How to Work with Classes in JavaScript
+2. Workshop: Shopping Cart
+3. Lab: Project Idea Board
+4. Review: JavaScript Classes
+5. Quiz: JavaScript Classes
+
+22. Bank Account Manager
+Certification project
+1. Project: Build a Bank Account Manager
+
+23. Recursion
+1. Lecture: Understanding Recursion and the Call Stack
+2. Workshop: Count Up
+3. Lab: Countdown
+4. Lab: Range of Numbers
+5. Workshop: Decimal to Binary Converter
+6. Lab: Permutation Generator
+7. Review: Recursion
+8. Quiz: Recursion
+
+24. Data Structures
+1. Lecture: Working with Common Data Structures in JavaScript
+2. Workshop: Linked List in JavaScript
+3. Lab: Linked List Operations
+4. Lab: Implement a Stack
+5. Lab: Implement a Queue
+6. Review: JavaScript Data Structures
+7. Quiz: JavaScript Data Structures
+
+25. Algorithms
+1. Lecture: Introduction to Common Searching and Sorting Algorithms
+2. Workshop: Binary Search in JavaScript
+3. Workshop: Merge Sort in JavaScript
+4. Lab: Bubble Sort Algorithm
+5. Lab: Selection Sort in JavaScript
+6. Lab: Insertion Sort
+7. Lab: Quick Sort in JavaScript
+8. Review: Searching and Sorting Algorithms in JavaScript
+9. Quiz: Searching and Sorting Algorithms in JavaScript
+
+26. Graphs and Trees
+1. Lecture: Understanding Graphs and Trees in JavaScript
+2. Workshop: Shortest Path Algorithm in JavaScript
+3. Lab: Adjacency List to Matrix Converter
+4. Workshop: Breadth-First Search in JavaScript
+5. Lab: Depth-First Search in JavaScript
+6. Lab: N-Queens Problem
+7. Review: Graphs and Trees in JavaScript
+8. Quiz: Graphs and Trees in JavaScript
+
+27. Dynamic Programming
+1. Lecture: Understanding Dynamic Programming in JavaScript
+2. Lab: Nth Fibonacci Number
+3. Lab: Prime Number Sum Calculator
+4. Review: Dynamic Programming
+5. Quiz: Dynamic Programming
+
+28. Functional Programming
+1. Lecture: Understanding Functional Programming
+2. Workshop: Recipe Ingredient Converter
+3. Lab: Optional Arguments Sum Function
+4. Lab: Sorting Visualizer
+5. Review: JavaScript Functional Programming
+6. Quiz: JavaScript Functional Programming
+
+29. Asynchronous JavaScript
+1. Lecture: Understanding Asynchronous Programming
+2. Workshop: freeCodeCamp Authors Page
+3. Lab: freeCodeCamp Forum Leaderboard
+4. Review: Asynchronous JavaScript
+5. Quiz: Asynchronous JavaScript
+
+30. Weather App
+Certification project
+1. Project: Build a Weather App
+
+31. JavaScript Review
+1. Final Review: JavaScript

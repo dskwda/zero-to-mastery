@@ -1,0 +1,183 @@
+1. Python fundamentals
+Module 1 — Introduction to Python
+- Setting up Python and the development environment
+- Installing, configuring, and using Python locally
+- Running Python programs
+- Writing your first Python program
+- Understanding the Python interpreter
+
+Module 2 — Variables and data types
+- Declaring variables
+- Variable naming conventions
+- Assigning and updating values
+- Understanding common Python data types
+- Checking data types with type()
+- Working with integers and floating-point numbers
+- Converting between data types
+- Understanding dynamic typing
+
+Module 3 — Strings
+- Creating strings
+- String indexing
+- Accessing individual characters
+- String slicing
+- Finding string length
+- String concatenation
+- String interpolation
+- Formatting strings
+- Working with common string methods
+
+Module 4 — Booleans and conditionals
+- Boolean values: True and False
+- Comparison operators
+- Logical operators: and, or, and not
+- Truthy and falsy values
+- Conditional statements
+- if, elif, and else
+- Nested conditionals
+- Short-circuit evaluation
+
+Module 5 — Loops
+- Understanding iteration
+- for loops
+- while loops
+- Loop conditions
+- range()
+- break and continue
+- Nested loops
+- Iterating over sequences
+
+Module 6 — Lists
+- Creating lists
+- Accessing and updating elements
+- Indexing and slicing
+- Adding and removing elements
+- Common list methods
+- Iterating over lists
+- List comprehensions
+- Useful functions for working with lists
+
+Module 7 — Tuples
+- Creating tuples
+- Accessing tuple elements
+- Tuple indexing and slicing
+- Tuple immutability
+- Tuple methods
+- Working with tuple values
+
+Module 8 — Dictionaries
+- Creating dictionaries
+- Keys and values
+- Accessing dictionary values
+- Adding, updating, and removing entries
+- Iterating over dictionaries
+- Dictionary methods
+- Nested dictionaries
+
+Module 9 — Sets
+- Creating sets
+- Understanding unique elements
+- Adding and removing elements
+- Set operations
+- Union
+- Intersection
+- Difference
+- Symmetric difference
+
+2. Object-oriented programming and error handling
+Module 10 — Error handling
+- Understanding Python errors
+- Syntax errors and runtime errors
+- Exceptions
+- try and except
+- Handling different exception types
+- Using else and finally
+- Raising exceptions
+
+Module 11 — Classes and objects
+- Understanding classes and objects
+- Defining classes
+- Creating instances
+- Constructors and __init__()
+- Instance attributes
+- Class attributes
+- Instance methods
+- Object attributes and their behavior
+
+Module 12 — Object-oriented programming
+- Understanding object-oriented programming
+- Encapsulation
+- Abstraction
+- Inheritance
+- Polymorphism
+- Special methods
+- Getters and setters
+- Dynamically handling object attributes
+
+3. Data structures and algorithms
+Module 13 — Linear data structures
+- Understanding linear data structures
+- Arrays and lists
+- Stacks
+- Queues
+- Linked lists
+- Implementing common data structure operations
+
+Module 14 — Algorithms and complexity
+- Understanding algorithms
+- Algorithm efficiency
+- Time complexity
+- Space complexity
+- Big O notation
+- Comparing algorithm performance
+
+Module 15 — Searching and sorting algorithms
+- Linear search
+- Binary search
+- Sorting fundamentals
+- Common sorting algorithms
+- Comparing searching and sorting approaches
+
+Module 16 — Graphs and trees
+- Understanding graphs
+- Nodes and edges
+- Directed and undirected graphs
+- Graph representations
+- Adjacency matrices
+- Adjacency lists
+- Understanding trees
+- Breadth-first search
+- Depth-first search
+- Shortest-path algorithms
+- Priority queues and heaps
+
+Module 17 — Dynamic programming
+- Understanding dynamic programming
+- Breaking problems into smaller subproblems
+- Overlapping subproblems
+- Memoization
+- Tabulation
+- Applying dynamic programming to algorithmic problems
+
+4. Verified lesson titles and course projects
+Some exact titles from the course's published lesson material include:
+- How Do You Install, Configure and Use Python in Your Local Environment?
+- How Do You Declare Variables and What Are Naming Conventions to Name Variables?
+- What Are Common Data Types in Python and How Do You Get the Type of a Variable?
+- How Do You Work with Integers and Floating-Point Numbers?
+- How Do Conditional Statements and Logical Operators Work?
+- How Do Loops Work?
+- What Are Lists and How Do They Work?
+- What Are List Comprehensions and What Are Some Useful Functions to Work With Lists?
+- What Are Some Common Methods Used for Lists?
+- What Are Sets, and How Do They Work?
+- How Do Classes Work and How Do They Differ From Objects?
+- What Is Abstraction and How Does It Help Keep Complex Systems Organized?
+- What Are Special Methods and What Are They Used For?
+- How to Handle Object Attributes Dynamically?
+- What Is an Algorithm and How Does Big O Notation Work?
+- What Is Binary Search and How Does It Differ From Linear Search?
+- What Are Graphs in Computer Science?
+- How Do Matrices and Adjacency Lists Work?
+- How Do Depth-First and Breadth-First Search Work?
+- How Do Priority Queues and Heaps Work?
