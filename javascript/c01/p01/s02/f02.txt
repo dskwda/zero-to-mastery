@@ -1,0 +1,53 @@
+What Is String Concatenation, and How Can You Concatenate Strings with Variables?
+
+String concatenation is the process of combining or joining pieces of text together.
+
+The + operator is one of the simplest and most frequently used methods to concatenate strings.
+
+It is important to remember that strings are immutable, which means that once a string is created, you cannot alter it.
+
+let greeting = 'Hello';
+greeting += ', John!';
+console.log(greeting); // Hello, John!
+In this case, the original string of Hello is not modified. Instead, greeting now references the new string of Hello, John!.
+
+Another way you can concatenate strings is to use the concat() method.
+Here's an example of using the concat() method to join two strings together:
+
+let str1 = 'Hello';
+let str2 = 'World';
+
+let result = str1.concat(' ', str2); 
+console.log(result); // Hello World
+In this example, we use the concat() method to join str1, a space (' '), and str2 into a single string.
+
+To conclude, the + operator is best for simple concatenation, especially when you need to combine a few strings or variables.
+
+The += operator is useful when building up a string step by step or appending new content to an existing string variable.
+
+Finally, the concat() method is beneficial when you need to concatenate multiple strings together.
+
+Questions
+
+What is the primary use of the + operator in string concatenation?
+To compare two strings.
+To join two or more strings together. (Correct)
+To check if two strings are equal.
+To remove characters from a string.
+
+Which of the following is the correct way to concatenate strings?
+let greeting = "Hi";
+greeting -= " there!";
+let greeting = "Hi";
+greeting =+ " there!";
+let greeting = "Hi"; (Correct)
+greeting += " there!";
+let greeting = "Hi";
+greeting == " there!";
+
+Which of the following is the correct method to concatenate multiple strings?
+concatenate()
+concat() (Correct)
+concatenating()
+concats()
+
