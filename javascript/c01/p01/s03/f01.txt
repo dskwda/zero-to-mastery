@@ -1,0 +1,65 @@
+What Is the Role of Semicolons in JavaScript, and Programming in General?
+
+A semicolon (;) can be used to mark the end of a statement in JavaScript.
+Semicolons commonly help indicate where statements end.
+However, statements are not necessarily the same thing as lines of source code. A statement can span multiple lines, and a single line can contain more than one statement.
+
+JavaScript also has Automatic Semicolon Insertion (ASI), which allows these declarations to remain valid without explicit semicolons:
+
+let variableOne = 5
+let variableTwo = 10
+In this example, ASI allows JavaScript to treat each declaration as a separate statement even though there are no semicolons. However, ASI does not simply insert a semicolon after every line break.
+
+For example, a line break after a return statement can cause unexpected behavior:
+
+function getValue() {
+  return
+  {
+    value: 42
+  };
+}
+Here, ASI inserts a semicolon after return, so the function returns undefined instead of the object. Writing the object on the same line avoids this behavior:
+
+function getValue() {
+  return {
+    value: 42
+  };
+}
+This shows why line breaks and statement boundaries are not always the same thing.
+
+Semicolons can also be useful when a line break could otherwise allow two pieces of code to be interpreted as one expression. An immediately invoked function expression (IIFE) is a function that runs as soon as it is defined. One way to create an IIFE is to wrap an anonymous function, which is a function without a name, in parentheses and add () at the end to call it. An IIFE can cause a problem when the preceding statement does not end with a semicolon:
+
+const message = "Hello"
+(function () {
+  console.log(message);
+})()
+Here, JavaScript does not insert a semicolon after the string declaration because the following left open parenthesis can continue the initializer expression. JavaScript parses the initializer as a call to the string "Hello", with the function expression as an argument. This throws a TypeError before the IIFE can run. Adding a semicolon ends the declaration before the IIFE:
+
+const message = "Hello";
+(function () {
+  console.log(message);
+})()
+The explicit semicolon keeps the variable declaration and the IIFE as separate statements.
+
+Using semicolons consistently can make statement boundaries clearer and make code easier to read and maintain.
+
+Questions
+
+What is the primary role of a semicolon in JavaScript?
+To separate variables.
+To mark the end of a statement. (Correct)
+To create comments.
+To denote the start of a function.
+
+What can happen if semicolons are omitted in JavaScript code?
+The code will not run at all.
+The JavaScript engine will always add semicolons correctly.
+It can lead to unexpected behavior due to Automatic Semicolon Insertion. (Correct)
+It will automatically correct syntax errors.
+
+Why is it beneficial to use semicolons explicitly even though JavaScript has Automatic Semicolon Insertion?
+To increase the execution speed of the code.
+To improve code readability and prevent subtle errors. (Correct)
+To add comments to the code.
+To change the way variables are declared.
+
