@@ -1,0 +1,40 @@
+What Is Bracket Notation, and How Do You Access Characters from a String?
+
+In JavaScript, strings are treated as sequences of characters, and each character in a string can be accessed using bracket notation. This allows you to retrieve a specific character from a string based on its position, which is called its index.
+
+An index is the position of a character within a string, and it is zero-based.
+
+Bracket notation uses square brackets ([]) and the index of the character you want to access.
+
+To get the last character of a string, you can use the length of the string minus one. The length property of a string tells you how many characters it contains, so to access the last character, you would subtract one from the length:
+
+let greeting = "hello";
+console.log(greeting[greeting.length - 1]); // "o"
+
+If you want to get multiple characters, you can use bracket notation like this:
+
+let greeting = "hello";
+let firstTwo = greeting[0] + greeting[1]; // "he"
+console.log(firstTwo);
+
+Bracket notation is useful when you need to access specific characters in a string, such as extracting initials from a name or checking a specific letter for validation.
+
+Questions
+
+What is the index of the character "r" in the string "JavaScript"?
+2
+4
+6 (Correct)
+8
+
+How would you access the last character of a string using bracket notation?
+string[length]
+string[string.length]
+string[string.length - 1] (Correct)
+string[string - 1]
+
+What does bracket notation allow you to do with strings in JavaScript?
+Add new characters to the string.
+Change the data type of the string.
+Access specific characters in the string using their index. (Correct)
+Convert the string into an array of characters.
