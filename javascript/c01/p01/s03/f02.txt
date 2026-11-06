@@ -1,0 +1,64 @@
+What Are Comments in JavaScript, and When Should You Use Them?
+
+Comments in programming are used to provide additional context for the code or leave notes for yourself and others.
+
+Comments are lines or blocks of text that are ignored by the JavaScript engine when your code is executed. They are there solely for the benefit of people reading the code, whether that's you or someone else.
+
+JavaScript provides two ways to add comments to your code: single-line comments and multi-line comments.
+
+Single-line comments are created using two forward slashes (//).
+
+Comments like this are important for those working on teams for two reasons:
+Other developers working on the project will understand the purpose of this code.
+It helps prevent unnecessary changes or deletions without consulting the team, which could lead to bugs or issues.
+
+Another type of comment is a multi-line comment. Here is the basic syntax:
+/*
+ I am a multiline comment.
+ This is helpful for longer explanations.
+*/
+Multi-line comments are useful when you need to write longer descriptions, explanations, or notes in your code.
+
+A developer on the team, or even a new contributor working on the project, can understand why this piece of code is here and have the full context before working on this area of the project.
+
+While comments are useful in programming, it is important to avoid over-commenting. You don't need to comment on every single line of code, especially if the code is straightforward and self-explanatory.
+
+Here is an example of using comments to explain the obvious:
+
+// This code uses the const keyword to create a new variable called price.
+// We are assigning the number 10 to the price variable.
+const price = 10;
+In this situation, there is no need to add any comments here because the code is self-explanatory. The goal is to enhance readability, not clutter the code with unnecessary explanations.
+
+If you want to add comments to your personal projects as you are learning to code, that is fine. But once you start working on real-world projects with other developers, it is important not to use comments for code that is self-explanatory.Here is an example of using comments to explain the obvious:
+
+// This code uses the const keyword to create a new variable called price.
+// We are assigning the number 10 to the price variable.
+const price = 10;
+In this situation, there is no need to add any comments here because the code is self-explanatory. The goal is to enhance readability, not clutter the code with unnecessary explanations.
+
+If you want to add comments to your personal projects as you are learning to code, that is fine. But once you start working on real-world projects with other developers, it is important not to use comments for code that is self-explanatory.
+
+It is also important not to use comments to help explain away confusing, overly complicated, or poorly written code. In those situations, it is best to refactor, or change, your code so other developers will better understand what is going on.
+
+Comments are powerful tools for documenting your code and making it easier to understand. You should use comments to provide context or leave notes for yourself and others.
+
+Questions
+
+Which of the following correctly creates a single-line comment in JavaScript?
+<!-- This is a comment -->
+/* This is a comment */
+// This is a comment (Correct)
+# This is a comment
+
+When would you use a multi-line comment instead of a single-line comment?
+When you need to disable a line of code temporarily.
+When you want to write a brief explanation about a variable.
+When you need to explain a large section of code or provide detailed information. (Correct)
+When you're writing HTML comments.
+
+Which of the following is a good practice when using comments in your code?
+Comment every single line of code.
+Use comments to provide context and leave notes for yourself and other developers. (Correct)
+Use comments to explain even the simplest code.
+Avoid comments altogether to keep the code clean.
