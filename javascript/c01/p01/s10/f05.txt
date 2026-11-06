@@ -1,0 +1,37 @@
+What Is the prompt() Method, and How Does It Work?
+
+The prompt() method is an important part of JavaScript's interaction with the user. It’s one of the simplest ways to get input from a user through a small pop-up dialog box.
+
+So, what exactly does the prompt() method do? It opens a dialog box that asks the user for some input, and then it returns the text entered by the user as a string.
+
+The prompt() method takes two arguments: The first one is the message which will appear inside the dialog box, typically prompting the user to enter information. And the second one is a default value which is optional and will fill the input field initially.
+
+prompt(message, default);
+
+Keep in mind that the prompt() method will halt the execution of the script until the user interacts with the dialog box.
+
+This means the rest of your JavaScript code won’t run until the user either provides input and clicks "OK", or cancels the prompt.
+
+One other point to consider is that while prompt() is useful for quick testing or small applications, it's generally avoided in modern, complex web applications due to its disruptive nature and inconsistent behavior across different browsers.
+
+By understanding the prompt() method, you gain a simple way to interact with users and retrieve information directly through the browser, even though it may not be widely used in modern web applications.
+
+Questions
+
+What does the prompt() method do in JavaScript?
+Displays a pop-up asking for user input and returns the input as a string. (Correct)
+Logs a message to the console.
+Opens a new browser window.
+Stops the script from executing.
+
+What happens if the user cancels the prompt dialog box?
+The script breaks.
+The prompt method returns null. (Correct)
+The prompt method returns an empty string.
+The script continues with the default value.
+
+What is the second, optional argument of the prompt() method used for?
+Specifying the text of the cancel button.
+Setting a default value in the input field. (Correct)
+Setting a time limit for the input.
+Changing the color of the dialog box.
