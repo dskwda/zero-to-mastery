@@ -1,0 +1,56 @@
+/*
+Step 16
+In previous lessons, you learned how to work with the indexOf method like this:
+
+Example Code
+const sentence = "I love to learn.";
+
+// returns index 2
+console.log(sentence.indexOf("love"));
+
+// returns -1
+console.log(sentence.indexOf("hate"));
+Remember that the indexOf method returns the index position of the first occurrence of a substring in a string. If the substring is not found, it returns -1.
+
+Add a new console statement that outputs the result of using the indexOf method on the learningIsFunSentence variable to find the index position of the substring "Learning".
+*/
+
+console.log("Hi there!");
+
+let botName = "teacherBot";
+
+let greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+let subject = "JavaScript";
+let topic = "strings";
+
+let sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+let strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+
+console.log(subject.length);
+
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
+
+console.log(`Here is an example of accessing the first letter in the word ${subject}.`);
+
+console.log(subject[0]);
+
+console.log(`Here is an example of accessing the second letter in the word ${subject}.`);
+console.log(subject[1]);
+
+console.log(`Here is an example of accessing the last letter in the word ${subject}.`);
+console.log(subject[subject.length - 1]);
+
+let lastCharacter = subject[subject.length - 1];
+console.log(lastCharacter);
+
+let learningIsFunSentence = "Learning is fun.";
+
+console.log("Here are examples of finding the positions of substrings in the sentence.");
+
+console.log(learningIsFunSentence.indexOf("Learning"));
