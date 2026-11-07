@@ -1,0 +1,52 @@
+What Is ASCII, and How Does It Work with charCodeAt() and fromCharCode()?
+
+In programming, understanding how characters are represented as numbers is fundamental. This is where ASCII comes in. ASCII, short for American Standard Code for Information Interchange, is a character encoding standard used in computers to represent text. It assigns a numeric value to each character, which is universally recognized by machines.
+
+While JavaScript strings use Unicode (UTF-16) internally, ASCII values match the first 128 Unicode characters, which is why ASCII-based examples work in JavaScript.
+
+ASCII is a system for encoding characters such as letters, digits, and symbols into numerical values. Each character is mapped to a specific number.
+
+The ASCII standard covers 128 characters including:
+Uppercase and lowercase English letters (A-Z, a-z).
+Numbers (0-9).
+Common punctuation marks and symbols (!, @, #, and so on).
+Control characters (such as newline and tab).
+
+In JavaScript, you can access the numeric code of a character using the charCodeAt() method. This method returns the UTF-16 code unit of the character at a specified index. For the first 128 characters, this value matches the ASCII code.
+
+let symbol = "!";
+console.log(symbol.charCodeAt(0));  // 33
+Here, the numeric code for the exclamation mark ! is returned as 33 (which matches its ASCII value).
+
+While charCodeAt() helps you retrieve the numeric code of a character, the fromCharCode() method allows you to do the opposite: convert a UTF-16 code unit (which matches ASCII for basic characters) into its corresponding character.
+
+let char = String.fromCharCode(65);
+console.log(char);  //  A
+In this example, fromCharCode(65) converts the numeric code 65 (which matches the ASCII value for A) back to the character A.
+
+These methods are particularly useful when you need to manipulate or compare characters based on their numeric code values.
+
+For instance, you might use charCodeAt() to check if a character is uppercase, lowercase, or a digit by comparing its ASCII value.
+
+On the other hand, fromCharCode() can be used to dynamically generate characters from their ASCII codes.
+
+Questions
+
+What does the charCodeAt() method return when used on a string in JavaScript?
+The number of characters in the string.
+The index of a character in the string.
+The UTF-16 code unit of a character at a specified index. (Correct)
+The hexadecimal representation of a character.
+
+What will the following code output?
+console.log(String.fromCharCode(66));
+B (Correct)
+b
+6
+A
+
+Which of the following is an example of how character encoding is useful in programming?
+To check whether a value is null or undefined.
+To calculate the length of a string.
+To convert a number into a floating-point value.
+To manipulate characters based on their numerical values. (Correct)
