@@ -1,0 +1,130 @@
+JavaScript Strings Quiz
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+
+1. What is the return value for the includes() method?
+If the substring is found within the string, the method returns true. Otherwise, it returns an empty string.
+If the substring is found within the string, the method returns the string. Otherwise, it returns undefined.
+If the substring is found within the string, the method returns the string. Otherwise, it returns null.
+If the substring is found within the string, the method returns true. Otherwise, it returns false. (Correct)
+
+2. Which option demonstrates string interpolation?
+"Hello, $user!"
+`Hello, {user}!`
+"Hello, " + user + "!"
+`Hello, ${user}!` (Correct)
+
+3. Which of the following options is the newline character?
+\n (Correct)
+\newline
+\new
+\line
+
+4. Which of the following statements is correct about strings?
+Strings are mutable and can be changed after they are created.
+Strings are immutable. (Correct)
+Strings can only be created using single quotes.
+Strings are non primitive data types.
+
+5. What does ASCII stand for?
+American Standard Code for Information Interchange (Correct)
+American Standard Code for Internet Information
+Advanced Systematic Code for Internal Interchange
+Automatic Standard Code for Internal Information
+
+6. Which of the following methods extracts a portion of a string and returns a new string?
+trim()
+prompt()
+indexOf()
+slice() (Correct)
+
+7. What is the purpose of the prompt() method?
+It displays a dialog box that waits for the user input. (Correct)
+It displays a message in the console.
+It displays an alert box with a message.
+It displays a confirmation box with a message.
+
+8. Which of the following is the correct way to access the third character of a string?
+const developer = "Jessica";
+developer[0];
+const developer = "Jessica";
+developer[3];
+const developer = "Jessica";
+developer[2]; (Correct)
+const developer = "Jessica";
+developer[-1];
+
+9. How can you obtain the ASCII value of the first character in the string "hello"?
+"hello".codeAt(0)
+"hello".charCodeAt(0) (Correct)
+"hello".getCharIndex(0)
+"hello".charCode(0)
+
+10. Which method can you use to obtain the character corresponding to an ASCII value?
+fromCharCode() (Correct)
+toASCII()
+toCode()
+toChar()
+
+11. Which of the following indexOf examples will log -1 to the console?
+const organization = "freeCodeCamp";
+console.log(organization.indexOf("C"));
+const organization = "freeCodeCamp";
+console.log(organization.indexOf("f"));
+const organization = "freeCodeCamp";
+console.log(organization.indexOf("e"));
+const organization = "freeCodeCamp";
+console.log(organization.indexOf("c")); (Correct)
+
+12. How can you check if the string "JavaScript" contains "Script"?
+"JavaScript".contains("Script")
+"JavaScript".includes("Script") (Correct)
+"JavaScript".has("Script")
+"JavaScript".exists("Script")
+
+13. Which of the following extracts the substring "Script" from the string "JavaScript"?
+"JavaScript".find(5)
+"JavaScript".cut(5)
+"JavaScript".slice(4) (Correct)
+"JavaScript".extract(4)
+
+14. How do you convert the string "JavaScript" to uppercase?
+"JavaScript".upper()
+"JavaScript".toUpperCase() (Correct)
+"JavaScript".toUpper()
+"JavaScript".convertUpper()
+
+15. How do you convert the string "JavaScript" to lowercase?
+"JavaScript".convertLower()
+"JavaScript".lower()
+"JavaScript".toLower()
+"JavaScript".toLowerCase() (Correct)
+
+16. Which of the following will replace "dogs" with "cats" in the string "I love dogs".
+"I love dogs".replace("dogs", "cats") (Correct)
+"I love dogs".replaceWith("dogs", "cats")
+"I love dogs".slice("dogs", "cats")
+"I love dogs".find("dogs", "cats")
+
+17. Which method is used to repeat a string a specified number of times?
+repeatNumber()
+repeatTimes()
+times()
+repeat() (Correct)
+
+18. What will the following code return: "abc".repeat(3)?
+"abcabcabc" (Correct)
+It will throw an error.
+"abcabcabcabc"
+"abcabc"
+
+19. Which method will remove whitespace from the beginning and end of a string?
+strip()
+trimWhitespace()
+trim() (Correct)
+removeWhitespace()
+
+20. Which of the following is the correct syntax for escaping quotes?
+"She said, //"Hello!//""
+"She said, \"Hello!\"" (Correct)
+"She said, ?"Hello!?""
+"She said, ."Hello!.""
