@@ -1,6 +1,5 @@
 Python Certification – Complete Table of Contents
-
-1. Python Basics
+Chapter 1. Python Basics
 1. Lecture: Introduction to Python
 2. Lecture: Understanding Variables and Data Types
 3. Workshop: Report Card Printer
@@ -20,35 +19,35 @@ Python Certification – Complete Table of Contents
 17. Review: Python Basics
 18. Quiz: Python Basics
 
-2. Python Installation
+Chapter 2. Python Installation
 1. Lecture: Python Installation
 2. Review: Python Installation
 3. Quiz: Python Installation
 
-3. Python Loops and Sequences
+Chapter 3. Python Loops and Sequences
 1. Lecture: Working with Loops and Sequences
 2. Workshop: PIN Extractor
 3. Lab: Number Pattern Generator
 4. Review: Loops and Sequences
 5. Quiz: Loops and Sequences
 
-4. Python Dictionaries and Sets
+Chapter 4. Python Dictionaries and Sets
 1. Lecture: Working with Dictionaries and Sets
 2. Lecture: Working with Modules
 3. Workshop: Medical Data Validator
 4. Review: Dictionaries and Sets
 5. Quiz: Dictionaries and Sets
 
-5. Certification Project: User Configuration Manager
+Chapter 5. Certification Project: User Configuration Manager
 1. Lab: User Configuration Manager
 
-6. Python Error Handling
+Chapter 6. Python Error Handling
 1. Lecture: Understanding Error Handling
 2. Lab: ISBN Validator
 3. Review: Error Handling
 4. Quiz: Error Handling
 
-7. Python Classes and Objects
+Chapter 7. Python Classes and Objects
 1. Lecture: Classes and Objects
 2. Workshop: Musical Instrument Inventory
 3. Lab: Planet Class
@@ -56,10 +55,10 @@ Python Certification – Complete Table of Contents
 5. Review: Classes and Objects
 6. Quiz: Classes and Objects
 
-8. Certification Project: Budget App
+Chapter 8. Certification Project: Budget App
 1. Lab: Budget App
 
-9. Python Object-Oriented Programming
+Chapter 9. Python Object-Oriented Programming
 1. Lecture: Understanding Object-Oriented Programming and Encapsulation
 2. Workshop: Salary Tracker
 3. Lab: Game Character Stats
@@ -71,26 +70,26 @@ Python Certification – Complete Table of Contents
 9. Review: Object-Oriented Programming
 10. Quiz: Object-Oriented Programming
 
-10. Certification Project: Polygon Area Calculator
+Chapter 10. Certification Project: Polygon Area Calculator
 1. Lab: Polygon Area Calculator
 
-11. Python Linear Data Structures
+Chapter 11. Python Linear Data Structures
 1. Lecture: Working with Common Data Structures
 2. Workshop: Linked List Class
 3. Review: Data Structures
 4. Quiz: Data Structures
 
-12. Certification Project: Hash Table
+Chapter 12. Certification Project: Hash Table
 1. Lab: Hash Table
 
-13. Python Recursion
+Chapter 13. Python Recursion
 1. Lecture: Understanding Recursion and the Call Stack in Python
 2. Workshop: Countup (Python)
 3. Lab: Range of Numbers (Python)
 4. Review: Recursion (Python)
 5. Quiz: Recursion (Python)
 
-14. Python Algorithms
+Chapter 14. Python Algorithms
 1. Lecture: Searching and Sorting Algorithms
 2. Workshop: Binary Search
 3. Lab: Bisection Method
@@ -101,10 +100,10 @@ Python Certification – Complete Table of Contents
 8. Review: Searching and Sorting Algorithms
 9. Quiz: Searching and Sorting Algorithms
 
-15. Certification Project: Tower of Hanoi
+Chapter 15. Certification Project: Tower of Hanoi
 1. Lab: Tower of Hanoi
 
-16. Python Graphs and Trees
+Chapter 16. Python Graphs and Trees
 1. Lecture: Understanding Graphs and Trees
 2. Workshop: Shortest Path Algorithm
 3. Lab: Adjacency List to Matrix Converter
@@ -114,11 +113,11 @@ Python Certification – Complete Table of Contents
 7. Review: Graphs and Trees
 8. Quiz: Graphs and Trees
 
-17. Python Dynamic Programming
+Chapter 17. Python Dynamic Programming
 1. Lecture: Understanding Dynamic Programming
 2. Lab: Nth Fibonacci Number
 3. Review: Dynamic Programming
 4. Quiz: Dynamic Programming
 
-18. Python Review
+Chapter 18. Python Review
 1. Review: Python
