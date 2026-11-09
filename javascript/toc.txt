@@ -1,6 +1,5 @@
 JavaScript v9 — Detailed Table of Contents
-Chapter 1 — JavaScript
-1. Variables and Strings
+Chapter 1. Variables and Strings
 1. Lecture: Introduction to JavaScript
 2. Lecture: Introduction to Strings
 3. Lecture: Understanding Code Clarity
@@ -22,7 +21,7 @@ Chapter 1 — JavaScript
 19. Review: JavaScript Strings
 20. Quiz: JavaScript Strings
 
-2. Booleans and Numbers
+Chapter 2. Booleans and Numbers
 1. Lecture: Working with Numbers and Arithmetic Operators
 2. Lab: Debug Type Coercion Errors
 3. Lecture: Working with Operator Behavior
@@ -40,7 +39,7 @@ Chapter 1 — JavaScript
 15. Review: JavaScript Comparisons and Conditionals
 16. Quiz: JavaScript Comparisons and Conditionals
 
-3. Functions
+Chapter 3. Functions
 1. Lecture: Working with Functions
 2. Workshop: Calculator
 3. Lab: Boolean Check
@@ -54,7 +53,7 @@ Chapter 1 — JavaScript
 11. Review: JavaScript Functions
 12. Quiz: JavaScript Functions
 
-4. Arrays
+Chapter 4. Arrays
 1. Lecture: Working with Arrays
 2. Workshop: Shopping List
 3. Lab: Lunch Picker Program
@@ -63,7 +62,7 @@ Chapter 1 — JavaScript
 6. Review: JavaScript Arrays
 7. Quiz: JavaScript Arrays
 
-5. Objects
+Chapter 5. Objects
 1. Lecture: Introduction to JavaScript Objects and Their Properties
 2. Workshop: Wildlife Tracker
 3. Lab: Cargo Manifest Validator
@@ -76,7 +75,7 @@ Chapter 1 — JavaScript
 10. Review: JavaScript Objects
 11. Quiz: JavaScript Objects
 
-6. Loops
+Chapter 6. Loops
 1. Lecture: Working with Loops
 2. Workshop: Word Counter
 3. Lab: Factorial Calculator
@@ -98,7 +97,7 @@ Chapter 1 — JavaScript
 19. Review: JavaScript Loops
 20. Quiz: JavaScript Loops
 
-7. JavaScript Fundamentals Review
+Chapter 7. JavaScript Fundamentals Review
 1. Lecture: Working with Types and Objects
 2. Lecture: Working with Arrays, Variables and Naming Practices
 3. Lecture: Working with Code Quality and Execution Concepts
@@ -126,7 +125,7 @@ Chapter 1 — JavaScript
 25. Review: JavaScript Fundamentals
 26. Quiz: JavaScript Fundamentals
 
-8. Higher-Order Functions and Callbacks
+Chapter 8. Higher-Order Functions and Callbacks
 1. Lecture: Working with Higher-Order Functions and Callbacks
 2. Workshop: Library Manager
 3. Lab: Book Organizer
@@ -140,7 +139,7 @@ Chapter 1 — JavaScript
 11. Review: JavaScript Higher-Order Functions
 12. Quiz: JavaScript Higher-Order Functions
 
-9. DOM Manipulation and Events
+Chapter 9. DOM Manipulation and Events
 1. Lecture: Working with the DOM, Click Events and Web APIs
 2. Workshop: Storytelling App
 3. Workshop: Emoji Reactor
@@ -154,7 +153,7 @@ Chapter 1 — JavaScript
 11. Review: DOM Manipulation and Click Events with JavaScript
 12. Quiz: DOM Manipulation and Click Events with JavaScript
 
-10. JavaScript and Accessibility
+Chapter 10. JavaScript and Accessibility
 1. Lecture: Understanding aria-expanded, aria-live and Common ARIA States
 2. Workshop: Planets Tablist
 3. Workshop: Note-Taking App
@@ -162,14 +161,14 @@ Chapter 1 — JavaScript
 5. Review: JavaScript Accessibility
 6. Quiz: JavaScript Accessibility
 
-11. Debugging JavaScript
+Chapter 11. Debugging JavaScript
 1. Lecture: Debugging Techniques
 2. Workshop: Library Search
 3. Lab: Random Background Color Changer
 4. Review: Debugging JavaScript
 5. Quiz: Debugging JavaScript
 
-12. Basic Regular Expressions (Regex)
+Chapter 12. Basic Regular Expressions (Regex)
 1. Lecture: Working with Regular Expressions
 2. Workshop: Spam Filter
 3. Lab: Palindrome Checker
@@ -180,62 +179,62 @@ Chapter 1 — JavaScript
 8. Review: JavaScript Regular Expressions
 9. Quiz: JavaScript Regular Expressions
 
-13. Markdown to HTML Converter
+Chapter 13. Markdown to HTML Converter
 Certification project
 1. Project: Build a Markdown to HTML Converter
 
-14. Form Validation
+Chapter 14. Form Validation
 1. Lecture: Understanding Form Validation
 2. Workshop: Envelope Budget App
 3. Lab: Customer Complaint Form
 4. Review: Form Validation with JavaScript
 5. Quiz: Form Validation with JavaScript
 
-15. JavaScript Dates
+Chapter 15. JavaScript Dates
 1. Lecture: Working with Dates
 2. Lab: Date Conversion
 3. Review: JavaScript Dates
 4. Quiz: JavaScript Dates
 
-16. Audio and Video Events
+Chapter 16. Audio and Video Events
 1. Lecture: Working with Audio and Video
 2. Workshop: Music Player
 3. Review: JavaScript Audio and Video
 4. Quiz: JavaScript Audio and Video
 
-17. Drum Machine
+Chapter 17. Drum Machine
 Certification project
 1. Project: Build a Drum Machine
 
-18. Maps and Sets
+Chapter 18. Maps and Sets
 1. Lecture: Working with Maps and Sets
 2. Workshop: Plant Nursery Catalog
 3. Review: JavaScript Maps and Sets
 4. Quiz: JavaScript Maps and Sets
 
-19. Voting System
+Chapter 19. Voting System
 Certification project
 1. Project: Build a Voting System
 
-20. Local Storage and CRUD Operations
+Chapter 20. Local Storage and CRUD Operations
 1. Lecture: Working with Client-Side Storage and CRUD Operations
 2. Workshop: Todo App
 3. Lab: Bookmark Manager App
 4. Review: Local Storage and CRUD
 5. Quiz: Local Storage and CRUD
 
-21. Classes and the this Keyword
+Chapter 21. Classes and the this Keyword
 1. Lecture: Understanding How to Work with Classes in JavaScript
 2. Workshop: Shopping Cart
 3. Lab: Project Idea Board
 4. Review: JavaScript Classes
 5. Quiz: JavaScript Classes
 
-22. Bank Account Manager
+Chapter 22. Bank Account Manager
 Certification project
 1. Project: Build a Bank Account Manager
 
-23. Recursion
+Chapter 23. Recursion
 1. Lecture: Understanding Recursion and the Call Stack
 2. Workshop: Count Up
 3. Lab: Countdown
@@ -245,7 +244,7 @@ Certification project
 7. Review: Recursion
 8. Quiz: Recursion
 
-24. Data Structures
+Chapter 24. Data Structures
 1. Lecture: Working with Common Data Structures in JavaScript
 2. Workshop: Linked List in JavaScript
 3. Lab: Linked List Operations
@@ -254,7 +253,7 @@ Certification project
 6. Review: JavaScript Data Structures
 7. Quiz: JavaScript Data Structures
 
-25. Algorithms
+Chapter 25. Algorithms
 1. Lecture: Introduction to Common Searching and Sorting Algorithms
 2. Workshop: Binary Search in JavaScript
 3. Workshop: Merge Sort in JavaScript
@@ -265,7 +264,7 @@ Certification project
 8. Review: Searching and Sorting Algorithms in JavaScript
 9. Quiz: Searching and Sorting Algorithms in JavaScript
 
-26. Graphs and Trees
+Chapter 26. Graphs and Trees
 1. Lecture: Understanding Graphs and Trees in JavaScript
 2. Workshop: Shortest Path Algorithm in JavaScript
 3. Lab: Adjacency List to Matrix Converter
@@ -275,14 +274,14 @@ Certification project
 7. Review: Graphs and Trees in JavaScript
 8. Quiz: Graphs and Trees in JavaScript
 
-27. Dynamic Programming
+Chapter 27. Dynamic Programming
 1. Lecture: Understanding Dynamic Programming in JavaScript
 2. Lab: Nth Fibonacci Number
 3. Lab: Prime Number Sum Calculator
 4. Review: Dynamic Programming
 5. Quiz: Dynamic Programming
 
-28. Functional Programming
+Chapter 28. Functional Programming
 1. Lecture: Understanding Functional Programming
 2. Workshop: Recipe Ingredient Converter
 3. Lab: Optional Arguments Sum Function
@@ -290,16 +289,16 @@ Certification project
 5. Review: JavaScript Functional Programming
 6. Quiz: JavaScript Functional Programming
 
-29. Asynchronous JavaScript
+Chapter 29. Asynchronous JavaScript
 1. Lecture: Understanding Asynchronous Programming
 2. Workshop: freeCodeCamp Authors Page
 3. Lab: freeCodeCamp Forum Leaderboard
 4. Review: Asynchronous JavaScript
 5. Quiz: Asynchronous JavaScript
 
-30. Weather App
+Chapter 30. Weather App
 Certification project
 1. Project: Build a Weather App
 
-31. JavaScript Review
+Chapter 31. JavaScript Review
 1. Final Review: JavaScript
