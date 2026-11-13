@@ -1,0 +1,148 @@
+JavaScript Math Quiz
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+
+1. What does NaN stand for?
+Not a Number (Correct)
+Null and Number
+Not a Null
+Numeric and Number
+
+2. Which of the following is NOT an arithmetic operator in JavaScript?
++
+-
+?? (Correct)
+*
+
+3. What happens if you try to divide by zero in JavaScript?
+JavaScript will output 0.
+JavaScript will output Infinity (Correct)
+Nothing will happen.
+JavaScript will throw an error.
+
+4. Which of the following is the correct use of the exponentiation operator?
+2**3 (Correct)
+2#3
+2%3
+2*3
+
+5. Which operator should you use when decrementing a variable in JavaScript?
+-- (Correct)
+**
+++
+//
+
+6. Which of the following is NOT a bitwise operator?
+> (Correct)
+&
+^
+|
+
+7. Which of the following is the correct compound operator for getting the remainder?
+%= (Correct)
+//=
+\=
+%%=
+
+8. What is the difference between the == and === operators?
+The == operator is used to check if the data type is the same while the === is used to check if the value is equal.
+There is no difference. The comparison result will always have the same result.
+The == operator can only be used with primitive types while the === operator is only used for objects.
+The == operator only compares values whereas the === operator compares values and types. (Correct)
+
+9. What is the unary plus operator (+) used for?
+It is used to invert the binary representation of a number.
+It is used to get the remainder from an operation.
+It is used to decrement a value by one.
+It is used to convert its operand into a number. (Correct)
+
+10. Which of the following Math methods rounds a value to the nearest whole integer?
+Math.max()
+Math.trunc()
+Math.round() (Correct)
+Math.min()
+
+11. What does the Math.sqrt() method do?
+This method returns the cube of a number.
+This method returns a random floating point number.
+This method returns the square root of a number. (Correct)
+This method returns the absolute value for a number.
+
+12. Which of the following is NOT a valid method for the Math object?
+Math.abs()
+Math.extend() (Correct)
+Math.ceil()
+Math.pow()
+
+13. Which of the following will return false?
+isNaN("Matt")
+isNaN(undefined)
+isNaN()
+isNaN(7) (Correct)
+
+14. What does the parseFloat() method do?
+It parses a string argument and performs a bitwise operation on it.
+It parses a string argument and returns an integer.
+It parses a string argument and returns false.
+It parses a string argument and returns a floating-point number. (Correct)
+
+15. What will be logged to the console?
+let num = 5;
+console.log(++num);
+null
+6 (Correct)
+5
+error
+
+16. What would be the output for the following code?
+console.log(5 == '5');
+null
+true (Correct)
+undefined
+false
+
+17. What is operator precedence?
+Operator precedence determines the order in which operations are evaluated in an expression. (Correct)
+Operator precedence is used to check if the value on the left is less than the one on the right.
+Operator precedence is used to raise a variable to the power of the specified number and reassigns the result to the variable.
+Operator precedence is used to increase the value by one.
+
+18. Which of the following is NOT a comparison operator?
+!> (Correct)
+<
+>
+>=
+
+19. What does the unary negation operator (-) do?
+It negates the operand. (Correct)
+It flips the boolean value of its operand.
+It increases the value by one.
+It decreases the value by one.
+
+20. Which of the following is an example of using the nullish coalescing operator?
+const userSettings = {
+ theme: null,
+ volume: 0,
+ notifications: false,
+};
+userSettings.theme \\ 'light';
+
+const userSettings = {
+ theme: null,
+ volume: 0,
+ notifications: false,
+};
+userSettings.theme ?? 'light'; (Correct)
+
+const userSettings = {
+ theme: null,
+ volume: 0,
+ notifications: false,
+};
+userSettings.theme () 'light';
+
+const userSettings = {
+ theme: null,
+ volume: 0,
+ notifications: false,
+};
+userSettings.theme ** 'light';
