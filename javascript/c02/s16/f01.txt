@@ -1,0 +1,96 @@
+JavaScript Comparisons and Conditionals Quiz
+To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
+
+1. What's the result of the expression undefined > 0?
+undefined
+true
+false (Correct)
+null
+
+2. Which logical operation does || represent?
+NOT
+XOR
+AND
+OR (Correct)
+
+3. What's the output of the following code?
+console.log(5 === 2 + 3 || 4 == 2);
+false
+undefined
+true (Correct)
+An error is raised.
+
+4. What is a truthy and falsy value?
+A value that's both true and false.
+A value that functions differently than true or false value.
+A value that is considered true or false when encountered in a Boolean context. (Correct)
+A value that changes depending on context.
+
+5. What's logged to the console from the code below?
+if (1) {
+  console.log("True!");
+}
+false
+Nothing gets printed to the console.
+An error is raised.
+True! (Correct)
+
+6. What's the difference between undefined and null?
+null is the implicit value assigned to variables and it can not be changed, while undefined is the explicit value assigned to variables.
+null is a global property, undefined is not.
+Variables without a value are undefined, while null represents an intentional absence of an object value. (Correct)
+null and undefined point to an out-of-range memory location and are inaccessible.
+
+7. What happens when you don't include break while implementing a switch statement?
+The switch statement will throw an error after previous statement.
+The switch statement will exit after the first match.
+The switch statement will stop abruptly.
+The code continues to evaluate the following case statements, even after finding a match. (Correct)
+
+8. What is printed to the console from the code below?
+const a = 2;
+if (1 == "1") {
+  let b = 3;
+  console.log(a + b);
+}
+console.log(b);
+5, and then an error is raised.
+An error is raised.
+5 (Correct)
+undefined
+5
+3
+
+9. What will be the output of the following JavaScript code?
+let vehicle = "car";
+switch (vehicle) {
+  case "bike":
+    console.log("Bikes are two-wheelers.");
+    break;
+  case "car":
+    console.log("Some cars are 4x4.");
+  case "truck":
+    console.log("Trucks can carry heavy loads.");
+    break;
+  default:
+    console.log("Unknown vehicle.");
+}
+Some cars are 4x4. (Correct)
+Trucks can carry heavy loads.
+Some cars are 4x4.
+Trucks can carry heavy loads.
+Unknown vehicle.
+Unknown vehicle.
+Some cars are 4x4.
+
+10. What is printed to the console with code below?
+let x = 5;
+if (x > 1 && x < 10) {
+  console.log("x is between 1 and 10");
+} else {
+  console.log("x is not between 1 and 10");
+}
+x is between 1 and 10 (Correct)
+Nothing is printed.
+x is not between 1 and 10
+An error is raised.
