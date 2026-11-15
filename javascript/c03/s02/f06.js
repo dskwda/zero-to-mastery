@@ -15,5 +15,5 @@ Declare a function called calculateSum that takes two parameters, num1 and num2.
 */
 
 function calculateSum(num1, num2) {
-    return num1 + num2;
+    
 }
