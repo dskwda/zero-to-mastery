@@ -1,0 +1,145 @@
+JavaScript Arrays Quiz
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+
+1. What will be the output for the following code?
+const numbers = [1, 2, 3];
+console.log(numbers[10]);
+null
+10
+undefined (Correct)
+[1, 2, 3]
+
+2. Which of the following is the correct way to access the string "Jessica" from the developers array?
+const developers = ["Jessica", "Naomi", "Tom"];
+developers[-1]
+const developers = ["Jessica", "Naomi", "Tom"];
+developers[2]
+const developers = ["Jessica", "Naomi", "Tom"];
+developers[1]
+const developers = ["Jessica", "Naomi", "Tom"];
+developers[0] (Correct)
+
+3. What value will be assigned to the index variable?
+const numbers = [10, 20, 30, 40];
+const index = numbers.indexOf(20);
+console.log(index);
+2
+3
+1 (Correct)
+-1
+
+4. What does the rest syntax do?
+It captures the remaining elements of an array into a new array. (Correct)
+It is used to divide a string into an array of substrings.
+It is used to add or remove elements from any position in an array.
+It is used to add elements to the end of the array and will return the new length.
+
+5. What is array destructuring?
+It is used to extract values from arrays and assign them to variables in a more concise and readable way. (Correct)
+It is used to concatenate all of the elements of an array into a single string.
+It is used to remove the last element from an array and will return that removed element.
+It is used to check if an array contains a specific value.
+
+6. What value will be assigned to the arr2 variable?
+const arr1 = [1, 2, 3];
+const arr2 = [...arr1, 4, 5];
+console.log(arr2);
+[1, 2, [3, 4, 5]]
+[1, 2, 3, 4, 5] (Correct)
+[1, 2, 3]
+[4, 5, 1, 2, 3]
+
+7. What will this code log to the console?
+const colors = ["red", "blue", "green", "yellow"];
+colors.splice(1, 2, "purple");
+console.log(colors);
+["red", "blue", "yellow"]
+["red", "yellow"]
+["red", "blue", "green", "yellow"]
+["red", "purple", "yellow"] (Correct)
+
+8. What value will be assigned to the slicedArr variable?
+const arr = ["apple", "banana", "cherry", "date"];
+const slicedArr = arr.slice(1, 3);
+console.log(slicedArr);
+["apple", "cherry"]
+["apple", "banana"]
+["banana", "cherry"] (Correct)
+["cherry", "date"]
+
+9. Which method returns the first index of a given element in an array?
+indexOf() (Correct)
+firstIndex()
+lastIndex()
+searchIndex()
+
+10. Which method is used to remove the first element from an array and returns that removed element?
+splice()
+pop()
+shift() (Correct)
+slice()
+
+11. What does the concat() method do?
+Removes an element from the array.
+Joins array elements into a string.
+Merges two arrays into a new array. (Correct)
+Adds an element to the beginning of an array.
+
+12. What will be the output of this code?
+const fruits = ["apple", "banana", "cherry", "apple", "orange"];
+fruits.splice(0, 1);
+console.log(fruits);
+["apple", "banana", "cherry", "apple", "orange"]
+["apple", "banana", "cherry"]
+["cherry", 'apple']
+["banana", "cherry", "apple", "orange"] (Correct)
+
+13. What does the includes() method do?
+It is used to check if an array contains a specific value. (Correct)
+It is used to concatenate all of the elements of an array into a single string.
+It is used to divide a string into an array of substrings.
+It is used to add or remove elements from any position in an array.
+
+14. Which of the following methods is used to reverse an array in place?
+reverse() (Correct)
+reverseArr()
+reversing()
+reversed()
+
+15. What is a two dimensional array?
+An array that only contains object literals.
+An array of floating point numbers.
+An array of fixed length.
+An array of arrays. (Correct)
+
+16. Which of the following is true about the indexOf() method in arrays?
+It always returns the last occurrence of the element.
+It requires the array to be sorted.
+It returns -1 if the element is not found. (Correct)
+It throws an error if the element is not found.
+
+17. Which of the following is NOT an array method?
+includes()
+pop()
+trim() (Correct)
+push()
+
+18. What will be the output for the following code?
+const arr = ["o", "l", "l", "e", "h"];
+console.log(arr.join(""));
+"hello"
+undefined
+["o", "l", "l", "e", "h"]
+"olleh" (Correct)
+
+19. What will be the result of using the shift() method on an empty array?
+undefined (Correct)
+[]
+TypeError
+null
+
+20. Which method will return a new array without changing the original array?
+shift()
+push()
+slice() (Correct)
+pop()
