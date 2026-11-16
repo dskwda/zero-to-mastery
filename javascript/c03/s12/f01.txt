@@ -1,0 +1,173 @@
+JavaScript Functions Quiz
+
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+
+1. Which of the following is the correct way to declare a function in JavaScript?
+func greet() {
+  console.log("Hello there!");
+}
+defineFunction greet() {
+  console.log("Hello there!");
+}
+def greet() {
+  console.log("Hello there!");
+}
+function greet() { // (Correct)
+  console.log("Hello there!");
+}
+
+2. What happens when you call (or execute) a function?
+The code inside the function will run and a value will be returned. (Correct)
+The code inside the function will run and null will always be returned.
+A TypeError will be thrown and the program will crash.
+Nothing will happen when you call a function.
+
+3. Which of the following is the correct way to call a function?
+exampleFunction(); (Correct)
+()exampleFunction();
+exampleFunction;
+exampleFunction>>;
+
+4. What is the role of the return keyword?
+The return keyword returns a value from the function. (Correct)
+The return keyword will throw a type error.
+The return keyword will execute the function.
+The return keyword serves no purpose in functions.
+
+5. Which of the following is a valid function expression?
+function = getSum(x, y) {
+    return x + y;
+};
+expression function getSum(x, y) {
+    return x + y;
+};
+const getSum = function(x, y) { // (Correct)
+    return x + y;
+};
+getSum: function(x, y) {
+    return x + y;
+};
+
+6. What are function arguments?
+Special values that act similar to anonymous functions.
+Real values passed to a function when it is called. (Correct)
+Placeholder values used inside of the function.
+Values that represents the absence of a value.
+
+7. What are function parameters?
+Floating point values used inside of the function.
+Values that represent the intentional absence of the value.
+Values passed to a function when it is called.
+Values listed inside the function definition. (Correct)
+
+8. What will be logged to the console?
+const calculateTotal = (amount, taxRate = 0.05) => {
+  return amount + (amount * taxRate);
+};
+console.log(calculateTotal(100));
+10
+undefined
+1
+105 (Correct)
+
+9. Which of the following is the correct syntax for an arrow function?
+const sum === (num1, num2) === num1 + num2;
+const sum <<>> (num1, num2) => num1 + num2;
+const sum >=> (num1, num2) => num1 + num2;
+const sum = (num1, num2) => num1 + num2; (Correct)
+
+10. What will be result for the following code?
+function greet() {
+  const developer = "Jessica";
+  console.log("Hello there!");
+}
+console.log(developer);
+Nothing will happen and the code will run normally.
+You will get a reference error because developer is not defined globally. (Correct)
+The string "Hello there!" will be logged to the console.
+The string "Hello!" will be logged to the console.
+
+11. When can you omit a set of parentheses around a parameter list for an arrow function?
+You are never supposed to omit the parentheses for an arrow function.
+You should always omit the parentheses around a parameter list.
+You should only omit the parentheses when you only have one parameter. (Correct)
+You should only omit the parentheses when you are working with multiple parameters.
+
+12. When can you omit the curly braces and return keyword for an arrow function?
+You should always omit the curly braces and return keyword.
+When the function body has multiple lines of code.
+When the function body consists of a single expression. (Correct)
+You should never omit the curly braces and return keyword.
+
+13. What will the following function return?
+function exampleFunction() {
+  return "Hello";
+  return "World!";
+}
+"Hello" (Correct)
+"Hello World!"
+"World!"
+undefined
+
+14. Which of the following is the correct way to use default parameters?
+function sum(num1, num2 <<>> 12) {
+  return num1 + num2;
+}
+function sum(num1, num2 = 12) { // (Correct)
+  return num1 + num2;
+}
+function sum(num1, num2 >> 12) {
+  return num1 + num2;
+}
+function sum(num1, num2 === 12) {
+  return num1 + num2;
+}
+
+15. What will be the result for the following code?
+const developer = "Jessica";
+function greet() {
+  console.log("Hello, " + developer);
+}
+greet();
+An error message will display in the console.
+The string "Hello, Jessica" will be logged to the console. (Correct)
+The string "Hello, developer" will be logged to the console.
+Nothing will display in the console.
+
+16. What happens if you try to remove the curly braces for a regular function?
+An alert box will display on the page with an error.
+The program will crash and not start again.
+You will get a syntax error. (Correct)
+Nothing will happen.
+
+17. What will be the result for the following code?
+const sum = (num1, num2) => num1 + num2;
+console.log(sum(0, 0) + 10);
+Nothing will be logged to the console.
+The number 0 will be logged to the console.
+The number 10 will be logged to the console. (Correct)
+An error message will display in the console.
+
+18. What will be the output for the following code?
+const exampleFunction = (param1, param2) => param1 + param2;
+console.log(exampleFunction(3, "Something"));
+3 + "Something"
+"3Something" (Correct)
+undefined
+null
+
+19. What will be the result for the following code?
+const sum = (num1, num2) => num1 + num2;
+console.log(sum(0, 0) + num2);
+An error message saying num2 is not defined. (Correct)
+undefined will be displayed in the console.
+The number 0 will be displayed in the console.
+An error message saying num1 is not defined.
+
+20. What will be the output for the following code?
+const divideTwoNumbers = (num1, num2) => num1 / num2;
+console.log(divideTwoNumbers(3, 0));
+0
+null
+Infinity (Correct)
+Error
