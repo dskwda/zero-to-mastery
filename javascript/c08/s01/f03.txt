@@ -1,0 +1,53 @@
+What Is the Map Method, and How Does It Work?
+
+The map method is a powerful and widely used function in JavaScript that operates on arrays. It is designed to create a new array by applying a given function to each element of the original array.
+This method does not modify the original array but instead returns a new array containing the results of the function applied to each element.
+Here is an example of using the map method on an array of numbers:
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map((num) => num * 2);
+console.log(numbers); // [1, 2, 3, 4, 5]
+console.log(doubled); // [2, 4, 6, 8, 10]
+To create a new array where each number is doubled, we are using the map method. The map method accepts a callback function where the function is called on every single element in the array.
+In this case, each number in the array will be multiplied by 2. The result will be a new array of the numbers 2,4,6,8,10.
+
+The callback function can accept up to three arguments.
+The first argument is the current element being processed.
+const numbers = [3, 4, 5, 6, 7].map((element) => {
+  console.log("Element:", element);
+  return element * 2;
+});
+The second argument is the index of the current element being processed.
+const numbers = [3, 4, 5, 6, 7].map((element, index) => {
+  console.log("Element:", element);
+  console.log("Index:", index);
+  return element * 2;
+});
+The third argument is the array where map is being called on.
+const numbers = [3, 4, 5, 6, 7].map((element, index, array) => {
+  console.log("Element:", element);
+  console.log("Index:", index);
+  console.log("Array:", array);
+  return element * 2;
+});
+
+Understanding and effectively using the map method can significantly improve your ability to work with arrays in JavaScript.
+
+Questions
+
+What does the map method return?
+The original array, modified.
+A new array with the same number of elements as the original. (Correct)
+A single value.
+It doesn't return anything, it just modifies the original array.
+
+How many arguments can the callback function in map receive?
+One. The current element.
+Two. The current element and its index.
+Three. The current element, its index, and the original array. (Correct)
+It depends on how map is called.
+
+Which of the following is NOT a correct use of the map method?
+Converting an array of strings to uppercase.
+Doubling each number in an array.
+Removing specific elements from an array. (Correct)
+Extracting a property from each object in an array.
