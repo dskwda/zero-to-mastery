@@ -1,0 +1,169 @@
+JavaScript Fundamentals Quiz
+
+1. Which one of these will create a String object?
+new String("Hello World"); (Correct)
+"Hello World".toString();
+String("Hello World");
+String({ "Hello World" });
+
+2. How can you convert a String object into a string literal?
+Enclose the String object in double quotes.
+With the .toString() method. (Correct)
+With the .stringify() method.
+With the String() constructor.
+
+3. Why can you use methods like .length, .repeat(), .concat(), and .slice() on a string primitive in JavaScript?
+String primitives are stored as objects internally.
+Those methods exist natively on string primitives.
+JavaScript temporarily converts the string primitive to an array.
+JavaScript temporarily wraps the string primitive in a String object. (Correct)
+
+4. What will the following code log to the console?
+let stringArray = [8, 9, 10].toString();
+console.log(stringArray);
+[8,9,10]
+"8", "9", "10" (Correct)
+"8,9,10"
+["8", "9", "10"]
+
+5. Which of the following returns a Number object from the string "123"?
+Object("123")
+Number("123")
+"123".toNumber()
+new Number("123") (Correct)
+
+6. What will Number(true) and Number(false) return, respectively?
+undefined and undefined
+1 and 0 (Correct)
+true and false
+NaN and NaN
+
+7. What will Number(undefined) and Number(null) return, respectively?
+NaN and NaN
+NaN and 0 (Correct)
+0 and 0
+undefined and null
+
+8. Which of the following is the best name for a boolean variable that checks if a user is allowed to do something on your website?
+permission
+hasPermission (Correct)
+getPermission
+handlePermission
+
+9. Which of the following is the best name for a function that runs when a user submits a form?
+formSubmit
+didSubmit
+hasSubmitted
+handleSubmit (Correct)
+
+10. What is a sparse array?
+An array where one or more indices are not assigned a value. (Correct)
+An array where one or more indices have a value of an empty object literal.
+An array where one or more indices have a value of null.
+An array where one or more indices have a value of undefined.
+
+11. In which of the following examples will arr NOT be a sparse array?
+const arr = [1, 2, 3, , 5];
+const arr = [1, 2, 3];
+arr[4] = 4;
+const arr = new Array(5);
+const arr = Array.from({ length: 5 }); (Correct)
+
+12. What is the primary purpose of a linter?
+To optimize code for performance.
+To create documentation for code.
+To format code automatically.
+To detect potential errors and issues in code. (Correct)
+
+13. What is a benefit of using a formatter in a codebase?
+They detect logical errors.
+They convert code to a specific programming language.
+They ensure a consistent code style. (Correct)
+They allow developers to compile code more efficiently.
+
+14. In JavaScript, who or what is typically responsible for allocating memory to variables?
+The developer.
+The runtime engine. (Correct)
+The server.
+The operating system.
+
+15. What will be logged to the console in the following code?
+function trackTotal(initialValue) {
+  let total = initialValue;
+  return function(increment) {
+    total += increment;
+    return total;
+  };
+}
+let track = trackTotal(1);
+console.log(track(2));
+console.log(track(3));
+3 (Correct)
+6
+
+2
+3
+
+2
+5
+
+5
+6
+
+16. What is hoisting in JavaScript?
+The process of moving variable declarations to the top of their scope. (Correct)
+Raising errors to the top of the code.
+The process of creating new variables.
+Automatically moving var declarations to the top of the block.
+
+17. Why is using the var keyword considered bad practice in modern JavaScript?
+They're slower than let and const.
+They cause syntax errors.
+They don't allow type checking.
+They're accessible outside their block. (Correct)
+
+18. What is the purpose of modules in JavaScript?
+To create new programming languages.
+To organize code into reusable units. (Correct)
+To improve code performance.
+To make code more difficult to understand.
+
+19. How do you add an app.js script as a module in an HTML document?
+<script src="app.js"></script>
+<script src="app.js" module></script>
+<script type="module" src="app.js"></script> (Correct)
+<script type="module/javascript" src="app.js"></script>
+
+20. Which of the following examples exports the calculateSum function from a utils.js module and properly imports and uses it in an app.js file?
+// utils.js
+export function calculateSum(a, b) {
+  return a + b;
+}
+// app.js
+import { calculateSum } from './utils.js';
+console.log(calculateSum(2, 3)); (Correct)
+
+// utils.js
+function calculateSum(a, b) {
+  return a + b;
+}
+export default calculateSum;
+// app.js
+import * as utils from './utils.js';
+console.log(utils.calculateSum(2, 3));
+
+// utils.js
+export function calculateSum(a, b) {
+  return a + b;
+}
+// app.js
+import calculateSum from './utils.js';
+console.log(calculateSum(2, 3));
+
+// utils.js
+export default function calculateSum(a, b) {
+  return a + b;
+}
+// app.js
+import { calculateSum } from './utils.js';
+console.log(calculateSum(2, 3));
