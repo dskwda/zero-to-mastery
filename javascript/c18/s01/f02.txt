@@ -85,3 +85,23 @@ Map - Map has a size property to get the number of key-value pairs.
 WeakMap - WeakMap does not have a size property.
 
 In the table above, you can see the differences summarized including the key type, use case, iteration and size property. Please take a moment to read the content of this table to learn more about their differences.
+
+Questions
+
+Which of these differentiates a Map from a WeakMap in JavaScript?
+A Map allows only objects as keys, while a WeakMap allows keys of any type.
+A Map has weak references to keys, while a WeakMap does not.
+A Map allows keys of any type, while a WeakMap only allows objects as keys. (Correct)
+A Map and a WeakMap function exactly the same.
+
+Which property lets you know the number of items in a Map?
+length
+count
+total
+size (Correct)
+
+Which method lets you add an item to a Map and a WeakMap?
+add()
+push()
+set() (Correct)
+insert()
