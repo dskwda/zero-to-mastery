@@ -1,0 +1,139 @@
+JavaScript Higher Order Functions Quiz
+
+1. Which of the following statements about JavaScript higher-order functions is NOT true?
+Higher-order functions can greatly enhance code readability and maintainability by enabling functional programming techniques.
+Higher-order functions like map, filter, and reduce are powerful tools for array manipulation, but they are not unique to functional programming.
+All functions in JavaScript, including those that do not take or return other functions, can be classified as higher-order functions. (Correct)
+Higher-order functions may introduce complexity in understanding code, but they can also lead to more expressive and concise solutions.
+
+2. What is a factory function in the context of higher order functions?
+A function that automatically generates code comments.
+A function that creates new variables.
+A function that only works with strings.
+A function that returns a new function based on specific parameters (Correct)
+
+3. After code execution, what will be the value of forEachRes and mapRes?
+const numbers = [1, 1, 1, 1, 1];
+let sum = 0;
+const forEachRes = numbers.forEach(num => {
+  return (sum += num);
+});
+const mapRes = numbers.map(num => {
+  return (sum += num);
+});
+forEachRes is undefined and mapRes is [6,7,8,9,10] (Correct)
+forEachRes is 0 and mapRes is [1,2,3,4,5]
+forEachRes is undefined and mapRes is [1,2,3,4,5]
+forEachRes is 5 and mapRes is [1,2,3,4,5]
+
+4. What is the result of this code?
+[, undefined, 'a', 'b', { 20: 5 }].sort();
+Unsupported elements for an array to be sorted, hence error.
+[empty, 'a', 'b', undefined, { '20': 5 }] (Correct)
+Callback not supplied, hence error.
+[{ '20': 5 }, 'a', 'b', undefined, empty]
+
+5. Which of the following describes a callback function in JavaScript?
+A function that is invoked with a specific context.
+A function that is called immediately upon declaration.
+A function passed as an argument to another function, to be executed by that function's logic. (Correct)
+A function that returns another function.
+
+6. What is the result of using reduce() on an array?
+A boolean indicating whether any elements meet a condition.
+It varies depending on the accumulator's initial value and the callback function. (Correct)
+An array with all elements reduced by specified callback function.
+An array of booleans.
+
+7. How does the sort() method behave if no compare function is provided in numerical sorting?
+It sorts the array in reverse order.
+It returns an array of special characters.
+It sorts the array as strings based on UTF-16 code units. (Correct)
+It fills the empty slots with null.
+
+8. What is the purpose of the some() method in JavaScript?
+To iterate through an array without producing a result.
+To create a new array with the results of a function applied to each element.
+To determine if any elements in an array pass a specified test. (Correct)
+To reduce an array to a single value based on a callback function.
+
+9. Which of the following is a valid example of method chaining?
+array.push(1).pop();
+Math.random();
+str.toLowerCase().trim().replace(' ', '_'); (Correct)
+console.log('Hello');
+
+10. What is the output of the following code?
+let numbers = [2, 4, 8, 10];
+numbers.forEach(function(number) {
+    console.log(number % 2);
+});
+1 2 4 5
+null null null null
+2 4 8 10
+0 0 0 0 (Correct)
+
+11. Which of the following is a benefit of method chaining?
+It eliminates the need for temporary variables, but may increase memory usage in some cases.
+It inherently optimizes performance by reducing the execution time of functions.
+It promotes simplified syntax and more readable code by allowing multiple operations in a single expression. (Correct)
+It allows for error handling and debugging to be more straightforward.
+
+12. How can you sort an array of objects by a specific property using the sort method?
+Use a compare function that compares the property values. (Correct)
+Convert the objects to strings and sort them.
+Use the reverse method after sorting.
+The sort method cannot sort objects.
+
+13. In method chaining, what is a common practice to enhance clarity and debugging?
+Avoid chaining methods that return only primitive values.
+Break long chains into multiple steps. (Correct)
+Use fewer methods in the chain.
+Use only built-in methods.
+
+14. What is a potential downside of using method chaining excessively in your code?
+It can make the code harder to debug. (Correct)
+It makes the file size larger.
+It prevents the use of comments.
+It makes the code run slower.
+
+15. Which method would you use to determine if all elements in an array are strings?
+everyInstance()
+some()
+filter()
+every() (Correct)
+
+16. What will be the value of originalArray after the following code is run?
+const originalArray = [{ id: 1 }, { id: 2 }, { id: 3 }];
+const filteredArray = originalArray.filter(item => item.id > 1);
+filteredArray[0].id = 4;
+[{ id: 1 }]
+[{ id: 1 }, { id: 4 }, { id: 3 }] (Correct)
+[{ id: 1 }, { id: 2 }, { id: 3 }]
+[{ id: 4 }, { id: 2 }, { id: 3 }]
+
+17. What will be the value of shortWords after the following code is run?
+const words = ['apple', 'banana', 'pear', 'kiwi'];
+const shortWords = words.filter(word => word.length <= 5);
+['apple', 'banana']
+[]
+['apple', 'pear', 'kiwi'] (Correct)
+['pear', 'kiwi']
+
+18. What is the purpose of providing an initial value as an argument to the reduce() method?
+To set the length of the array.
+To specify the return type of the function.
+To limit the number of iterations.
+To define the starting value for the accumulator. (Correct)
+
+19. Can the map method be used on objects that are not arrays?
+No, it is specifically designed for arrays. (Correct)
+It depends on the JavaScript version.
+Yes, but only on objects with numeric properties.
+Yes, it can be used on any object.
+
+20. What is the primary purpose of the map method in JavaScript?
+To find a specific element in an array and return its index along with the element.
+To sort an array and return a new array while maintaining the original order.
+To create a new array containing the results of calling a provided function on each element in the starting array. (Correct)
+To filter elements from an array and remove or add elements based on a condition.
