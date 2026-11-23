@@ -1,0 +1,124 @@
+JavaScript Dates Quiz
+
+1. What is the JavaScript Date object used for?
+Work with just dates only.
+Work with just time only.
+Work with just leap years.
+Work with both dates and time. (Correct)
+
+2. Which code creates a new Date object instance?
+Date.new()
+new.Date()
+new Date() (Correct)
+Date.fetch()
+
+3. How does Date.now() work?
+It returns the previous time in milliseconds since January 1, 1974.
+It returns the current date in minutes since January 1, 1970.
+It returns the current time in nanoseconds since July 4, 1776.
+It returns the current time in milliseconds since January 1, 1970. (Correct)
+
+4. Which method returns the current year?
+getLeapYear()
+getNewYear()
+getLastYear()
+getFullYear() (Correct)
+
+5. Which method returns the current month, as a zero-indexed integer?
+getCalendar()
+get.Month()
+fetchMonth()
+getMonth() (Correct)
+
+6. Which method formats a date as a string?
+toStingy()
+formatDate()
+getMonth()
+toString() (Correct)
+
+7. What would the result of console.log(new Date().getFullYear()); be, if it is June 12th 2022?
+"2023"
+"June 12th 2022"
+"2022" (Correct)
+"06/12/2022"
+
+8. What does fr-FR in date.toLocaleDateString("fr-FR") represent?
+A French-Canadian locale.
+A French-Italian locale.
+A French-Finnish locale.
+A French locale. (Correct)
+
+9. What is the output of console.log(new Date("2014-10-15").getDate());?
+15 (Correct)
+2014
+10
+2014-10-15
+
+10. In which format does the toISOString() method return a date?
+An MP3 string format.
+An ISO-8601 string format. (Correct)
+A USA-863 string format.
+A UTC string format.
+
+11. What should an ISO-8601 date format look like?
+YYYY-MM-DDTHH:mm:ss.sssZ (Correct)
+DD-MM-YYTHH
+YYYY-MM-DDTHH:mm:ssZ
+DD-MM-YYYY
+
+12. What is the corresponding month for console.log(new Date(2003, 6, 27).getMonth());?
+January
+June
+July (Correct)
+April
+
+13. How would you format a date to a locale-specific string or a more readable format?
+.toLocaleDateString() (Correct)
+.toLocaleDate()
+.toDateString()
+.toLocaleString()
+
+14. What is the default locale used by the toLocaleDateString() method if no locales parameter is provided?
+French (France).
+English (Great Britain).
+The user's system locale. (Correct)
+The locale closest to United States.
+
+15. What gets assigned to now in the code below?
+const now = new Date();
+The current time in milliseconds since January 1, 1990.
+The current date and time based on your computer system's clock. (Correct)
+The current date in milliseconds minus the Unix epoch.
+The current time in nanoseconds since January 1, 1990.
+
+16. What is the output of console.log(new Date(2003, 6, 27).getFullYear());?
+"27/6/2003"
+27
+2003 (Correct)
+6
+
+17. What does getDate return when the date is invalid?
+0
+NaN (Correct)
+null
+undefined
+
+18. If we are in the month of October, what will console.log(new Date().getMonth()); output?
+10
+3
+9 (Correct)
+1
+
+19. Which option will output 2021 for the following object?
+const d = new Date("2021-12-25");
+console.log(d.getDate())
+console.log(d.toUTCString())
+console.log(d.getTime())
+console.log(d.getFullYear()) (Correct)
+
+20. Which option will output "2021-12-25T00:00:00.000Z" for the following object?
+const d = new Date("2021-12-25");
+console.log(d.toUTCString())
+console.log(d.toISOString()) (Correct)
+console.log(d.getTime())
+console.log(d.getFullYear())
