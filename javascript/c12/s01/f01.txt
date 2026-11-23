@@ -47,7 +47,7 @@ If we run this, we get an array back! But it's a strange looking array. It's got
 //   input: 'freeCodeCamp',
 //   groups: undefined
 // ]
-The groups property would show any captured groups. You will learn what that means in a future lesson.
+The groups property would show any captured groups.
 The index property tells you at what character in the string the match was found. In our case, it was found at the beginning of the string.
 The input property tells you the string the match() method was called on.
 Let's try a few more again, and see how the result changes:
