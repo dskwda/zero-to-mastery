@@ -1,0 +1,154 @@
+JavaScript Classes Quiz
+
+1. What is the purpose of a class in JavaScript?
+To create reusable blueprints for objects. (Correct)
+To define static variables only.
+To define only properties, not methods.
+To organize only primitive data.
+
+2. How do you define a class in JavaScript?
+Using the constructor keyword only.
+Using the object keyword.
+Using the class keyword. (Correct)
+Using the className keyword.
+
+3. Which method is used in a class to initialize properties?
+static
+constructor (Correct)
+init
+define
+
+4. What does this represent inside a class constructor?
+An undefined reference.
+The global class object.
+The function itself.
+An instance of the class. (Correct)
+
+5. Which of the following describes how this behaves in an arrow function inside a class method?
+It inherits the value of this from the global object in strict mode.
+It inherits the value of this from the enclosing scope where it is defined. (Correct)
+It refers to a newly created instance of the class.
+It inherits the value of this from the nearest function in a different scope.
+
+6. What is the primary purpose of the extends keyword?
+To create a subclass that inherits from a parent class. (Correct)
+To initialize default properties in the parent class.
+To define static methods in a parent class constructor.
+To create a method in a class.
+
+7. Which of the following is an example of how to create a Car class that inherits from a Vehicle class?
+class Car extends Vehicle {} (Correct)
+class Car = Vehicle {}
+class Car uses Vehicle {}
+class Car inherits Vehicle {}
+
+8. What is the output of the following code?
+class Animal {
+  speak() {
+    return "Animal speaks";
+  }
+}
+class Dog extends Animal {
+  speak() {
+    return "Dog barks";
+  }
+}
+const myDog = new Dog();
+console.log(myDog.speak());
+Animal speaks
+undefined
+Dog barks (Correct)
+An error is raised.
+
+9. What is the function of the super keyword in a subclass?
+To delete methods and properties from the parent class.
+To define a new instance of the parent class.
+To access only the static methods of the parent class.
+To call the constructor or methods of the parent class. (Correct)
+
+10. Which of the following describes a static method?
+A method that is inaccessible inside the class itself.
+A method that belongs to the class itself, not to any instance. (Correct)
+A method that is used only in arrow functions.
+A method that is unique to each instance of a class.
+
+11. What will the following code output?
+class Calculator {
+  static add(a, b) {
+    return a + b;
+  }
+}
+console.log(Calculator.add(3, 4));
+undefined
+NaN
+7 (Correct)
+An error is raised.
+
+12. How would you access a static property in JavaScript class?
+By using this.propertyName within a method.
+By using ClassName.propertyName. (Correct)
+By using instance.propertyName after creating an instance.
+By using super.propertyName within a subclass.
+
+13. In which scenario would you use a static method over an instance method?
+When you need to access and modify the instance's properties.
+When the method needs to be called on an object instance.
+When the method doesn't rely on instance-specific data and operates on class-level data. (Correct)
+When the method operates on data that is shared by all instances of the class.
+
+14. What will the following code output?
+class MyClass {
+  sayHello() {
+    return "Hello!";
+  }
+}
+console.log(MyClass.sayHello());
+null
+undefined
+It throws an error. (Correct)
+Hello!
+
+15. What keyword is used to inherit properties and methods from another class?
+import
+static
+inherit
+extends (Correct)
+
+16. What is printed by the following code?
+class Person {
+  static species = "Human";
+}
+console.log(Person.species);
+undefined
+null
+Human (Correct)
+An error is raised.
+
+17. Which of the following best describes inheritance?
+It allows an instance to define its own properties.
+It allows a class to acquire properties and methods from another class. (Correct)
+It allows a static property to be converted into a non-static property.
+It allows a method to return a new object.
+
+18. What happens if a constructor is not defined in a subclass?
+The subclass will inherit the constructor from any class in the code.
+The subclass cannot create new instances.
+An error will be thrown.
+The superclass's constructor will be used by default. (Correct)
+
+19. What does this represent in the following code?
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+}
+The global object.
+The Animal class itself.
+An undefined variable.
+The instance of Animal. (Correct)
+
+20. What is the primary use of static properties?
+To override methods in a subclass.
+To define instance-specific data.
+To define default properties for each class instance.
+To store class-wide data shared across instances. (Correct)
