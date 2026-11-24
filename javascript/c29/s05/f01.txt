@@ -1,0 +1,146 @@
+Asynchronous JavaScript Quiz
+
+1. What is asynchronous programming?
+A method to execute code concurrently without blocking the main thread. (Correct)
+A technique to handle errors in your code.
+A method for executing code sequentially.
+A way to make network requests, typically to retrieve or send data to the server.
+
+2. What is a thread?
+A function used to retrieve data from the server.
+A program that executes JavaScript code in a web browser.
+A sequence of instructions that can be executed independently of the main program flow. (Correct)
+A special type of function that is passed as an argument to another function.
+
+3. What is the purpose of the Fetch API in JavaScript?
+To manage asynchronous callbacks.
+To create and manage cookies.
+To make network requests to servers. (Correct)
+To render dynamic HTML content.
+
+4. Which HTTP method is used to send data to a server for processing?
+HEAD
+GET
+DELETE
+POST (Correct)
+
+5. Which of the following is the correct way to fetch data from an API?
+fetch('https://api.example.com/data')
+  .send(response => response.json())
+  .send(data => console.log(data))
+fetch('https://api.example.com/data')
+  .then(response => response.json())
+  .then(data => console.log(data)) (Correct)
+fetch('https://api.example.com/data')
+  .accept(response => response.json())
+  .accept(data => console.log(data))
+fetch('https://api.example.com/data')
+  .allow(response => response.json())
+  .allow(data => console.log(data))
+
+6. What is a promise in JavaScript?
+A special type of callback function that you must use in all higher order functions.
+A way to synchronize multiple operations when working with the Fetch API.
+An object that represents the eventual completion (or failure) of an asynchronous operation. (Correct)
+A technique used to handle errors when you work with the Fetch API.
+
+7. What does promise chaining allow you to do?
+Allows you to perform a sequence of asynchronous operations one after the other. (Correct)
+Allows you to handle synchronous operations more efficiently.
+Allows you to execute multiple synchronous operations in parallel.
+Allows you to retry failed operations automatically.
+
+8. Which method is used to handle a successful completion of a promise?
+.error()
+.finally()
+.then() (Correct)
+.catch()
+
+9. Which method is used to handle errors in a promise chain?
+.finally()
+.error()
+.then()
+.catch() (Correct)
+
+10. Which of the following is NOT a valid HTTP method?
+SEND (Correct)
+GET
+POST
+PUT
+
+11. Which of the following is the correct syntax for creating an async function?
+function myFunction() {}
+function async myFunction() {}
+async function myFunction() {} (Correct)
+async {} => ()
+
+12. What does the await keyword do in an async function?
+It logs the result of the promise and returns null.
+It pauses the execution of the function until the promise is resolved. (Correct)
+It creates a new promise.
+It executes code immediately without waiting and returns an object.
+
+13. Which of the following APIs is used to provide a way for websites to request the user's location?
+Geolocation API (Correct)
+Locator API
+Locate API
+Geo API
+
+14. Which of the following attributes downloads the script asynchronously but waits for the HTML document to be fully parsed before running the script?
+deferring
+deferred
+defer (Correct)
+asyncDefer
+
+15. What will the following code return?
+fetch('https://api.example.com/data')
+An error saying that the data cannot be fetched.
+A Promise that resolves to a Response object. (Correct)
+Nothing will be returned and JavaScript will move to the next function in the script.
+An error saying that the data is corrupted.
+
+16. What is the default HTTP method for the Fetch API?
+PUT
+GET (Correct)
+POST
+DELETE
+
+17. Which of the following methods is used to delete resources on the server?
+DELETE (Correct)
+DELETING
+REMOVE
+REMOVING
+
+18. Which of the following is the correct way to create a promise?
+const promise = put Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('Data received successfully');
+  }, 2000);
+});
+const promise = set Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('Data received successfully');
+  }, 2000);
+});
+const promise = get Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('Data received successfully');
+  }, 2000);
+});
+const promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('Data received successfully');
+  }, 2000);
+}); (Correct)
+
+19. Which of the following attributes tells the browser to download the script file asynchronously while continuing to parse the HTML document?
+put
+async (Correct)
+resolve
+catch
+
+20. Which method of the Geolocation API is used to get the current position of a device?
+getLatLong()
+getPosition()
+getCurrentPosition() (Correct)
+getLocation()
