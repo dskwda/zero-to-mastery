@@ -1,0 +1,57 @@
+What Are Regular Expressions, and How Do You Use Them in Python?
+
+A regular expression, or regex, is a pattern used to match a sequence of characters in text.
+You have already used the in operator to check whether a string contains an exact substring. But there are cases in which you don't know the exact text you are looking for, only its shape. For example, you might want to check that a string starts with some letters followed by some digits, or a username is made only of allowed characters.
+Regular expressions let you describe patterns like these and check whether a string matches them. They are commonly used for validating input, searching through text, and extracting pieces of information from strings.
+In Python, to use regular expressions you need to import the re module, which is part of the standard library:
+import re
+The simplest regex pattern is a literal pattern: a sequence of characters that must appear exactly as written. For example, the pattern 'cat' matches the letters c, a, and t, one after the other.
+To look for a pattern inside a string, you can use the search function from the re module. It takes the pattern as its first argument and the string to search as its second argument:
+import re
+sentence = 'The cat sat on the mat.'
+print(re.search('cat', sentence))
+# <re.Match object; span=(4, 7), match='cat'>
+When re.search finds the pattern anywhere in the string, it returns a match object. The printed match object tells you two things:
+match='cat' is the text that matched the pattern.
+span=(4, 7) is the location of the match in the string. The match starts at index 4 and ends right before index 7.
+You can also get this information from the match object with its group and span methods:
+import re
+sentence = 'The cat sat on the mat.'
+result = re.search('cat', sentence)
+print(result.group()) # cat
+print(result.span())  # (4, 7)
+When the pattern is not found, re.search returns None:
+import re
+sentence = 'The cat sat on the mat.'
+print(re.search('dog', sentence)) # None
+By default, regex matching is case sensitive. This means that the pattern 'Cat' does not match the text cat:
+import re
+sentence = 'The cat sat on the mat.'
+print(re.search('Cat', sentence)) # None
+To change how a pattern is matched, you can pass a flag as the third argument to re.search. The re.IGNORECASE flag makes the search case insensitive, so uppercase and lowercase letters are treated as the same:
+import re
+sentence = 'The cat sat on the mat.'
+print(re.search('Cat', sentence, re.IGNORECASE))
+# <re.Match object; span=(4, 7), match='cat'>
+
+Questions
+
+Which of the following best describes a regular expression?
+A function that converts a string to lowercase.
+A pattern used to match a sequence of characters in text. (Correct)
+A built-in data type for storing multiple strings.
+A method that splits a string into a list of words.
+
+What does the following code print?
+import re
+print(re.search('Code', 'freeCodeCamp'))
+None
+True
+<re.Match object; span=(4, 8), match='Code'> (Correct)
+Code
+
+Which of the following calls returns a match object?
+re.search('Python', 'I love python!')
+re.search('Python', 'I love python!', re.IGNORECASE) (Correct)
+re.search('python', 'I love Python!')
+re.search('PYTHON', 'I love Python!')
