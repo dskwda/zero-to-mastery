@@ -1,0 +1,61 @@
+How Do Special Sequences and Quantifiers Work in Regular Expressions?
+
+Regular expressions can contain special sequences made of a backslash (\) followed by a character. These sequences have a special meaning. Here are some of the most common ones:
+\d matches any decimal digit, including 0 to 9.
+\w matches any word character: letters, digits, and the underscore (_).
+\s matches any whitespace character, such as a space, a tab, or a new line.
+\D, \W, and \S match the opposite of their lowercase versions. For example, \D matches any character that is not a digit.
+There is a catch, though. Python strings also use backslashes, to write escape sequences like \n (a new line) or \t (a tab):
+print('Tab:\tdone') # Tab:    done
+This means that a backslash in a regular Python string might be interpreted by Python before the re module ever sees it. Depending on the character that follows, that can change your pattern or make Python display a warning.
+To avoid this, you can use a raw string. You create a raw string by adding the letter r (or R) before the opening quote. Raw strings treat backslashes as literal characters rather than escape sequences:
+print(r'Tab:\tdone') # Tab:\tdone
+For this reason, it's good practice to always write regex patterns as raw strings:
+import re
+room = 'Room 42B'
+print(re.search(r'\d', room))
+# <re.Match object; span=(5, 6), match='4'>
+Notice that re.search returns the first match it finds. Here, \d matches a single digit, so the match is only 4. In order to match more than a single digit, you may want to use a quantifier.
+Quantifiers specify how many times the preceding character or sequence can be repeated. The + quantifier matches the preceding character one or more times.
+So, while \d matches a single digit, \d+ matches one or more digits in a row:
+import re
+room = 'Room 42B'
+print(re.search(r'\d+', room))
+# <re.Match object; span=(5, 7), match='42'>
+Here are other common quantifiers:
+* matches the preceding character zero or more times.
+? matches the preceding character zero or one time, making it optional.
+{n} matches the preceding character exactly n times.
+{n,m} matches the preceding character from n to m times.
+import re
+print(re.search(r'go*al', 'What a goooal!'))
+# <re.Match object; span=(7, 13), match='goooal'>
+print(re.search(r'colou?r', 'My favorite color is blue'))
+# <re.Match object; span=(12, 17), match='color'>
+print(re.search(r'\d{4}', 'Room 42, built in 1987'))
+# <re.Match object; span=(18, 22), match='1987'>
+You can combine literal characters, special sequences, and quantifiers in the same pattern. For example, the pattern r'\d+ items' matches one or more digits, followed by a space and the word items. You can also combine it with the re.IGNORECASE flag so that the letters can be either lowercase or uppercase:
+import re
+cart = 'You have 3 ITEMS in your cart.'
+print(re.search(r'\d+ items', cart, re.IGNORECASE))
+# <re.Match object; span=(9, 16), match='3 ITEMS'>
+
+Questions
+
+Why is it good practice to write regex patterns as raw strings, like r'\d+'?
+Raw strings make the regex search case insensitive.
+Raw strings are faster to search than regular strings.
+Raw strings stop Python from interpreting backslashes. (Correct)
+Raw strings automatically match the entire string.
+
+Which special sequence matches any whitespace character, such as a space or a tab?
+\d
+\w
+\s (Correct)
+\S
+
+Which pattern matches exactly four digits in a row?
+r'\d+'
+r'\d*'
+r'\d?'
+r'\d{4}' (Correct)
