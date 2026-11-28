@@ -1,0 +1,155 @@
+Loops and Sequences Quiz
+
+1. Which of the following is the correct syntax for a list?
+cities = ['Los Angeles', 'London', 'Tokyo'] (Correct)
+cities = {'Los Angeles', 'London', 'Tokyo'}
+cities = <'Los Angeles', 'London', 'Tokyo'>
+cities = //'Los Angeles', 'London', 'Tokyo'\\
+
+2. What will be printed to the console?
+cities = ['Los Angeles', 'London', 'Tokyo']
+print(cities[-1])
+Tokyo (Correct)
+None
+Los Angeles
+London
+
+3. What is an iterable?
+It is a special type of object that can be looped over one item at a time. (Correct)
+It is a special data type mainly used in classes and special functions.
+It is a special type of string that can hold a large number of characters.
+It is a special type of number used to represent really large values.
+
+4. What will the following print to the console?
+developer = 'Jessica'
+print(list(developer))
+{'J', 'e', 's', 's', 'i', 'c', 'a'}
+<'J', 'e', 's', 's', 'i', 'c', 'a'>
+'J', 'e', 's', 's', 'i', 'c', 'a'
+['J', 'e', 's', 's', 'i', 'c', 'a'] (Correct)
+
+5. Which of the following is used to get the number of elements in a list?
+length()
+long()
+list()
+len() (Correct)
+
+6. What happens if you try to pass in an index (either positive or negative) that is out of bounds for a list?
+You will receive a SyntaxError.
+You will receive a RangeError.
+You will receive an IndexError. (Correct)
+You will receive a TypeError.
+
+7. What will be printed to the console?
+desserts = ['Cake', 'Cookies', 'Ice Cream', 'Pie']
+print(desserts[1:3])
+['Cookies', 'Ice Cream'] (Correct)
+['Cake', 'Cookies', 'Ice Cream', 'Pie']
+['Cake', 'Cookies', 'Cookies', 'Ice Cream']
+['Cake', 'Cookies']
+
+8. Which of the following methods is used to add an item to the end of a list?
+append() (Correct)
+add()
+push()
+pop()
+
+9. What will be printed to the console?
+numbers = [1, 2, 3, 4, 5]
+even_numbers = [6, 8, 10]
+numbers.extend(even_numbers)
+print(numbers)
+[1, 2, 3, 4]
+[5, 6, 8, 10]
+[1, 2, 3, 4, 5, 6, 8, 10] (Correct)
+[2, 3, 4, 5, 6, 8, 10]
+
+10. Which of the following methods is used to insert an element at a specific index in a list?
+insert() (Correct)
+place()
+push()
+add()
+
+11. What will be printed to the console?
+numbers = [1, 2, 3, 4, 5, 5, 5]
+numbers.remove(5)
+print(numbers)
+[1, 2, 3, 4]
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5, 5] (Correct)
+[1, 2, 3, 4, 5, 5, 5]
+
+12. Which of the following methods is used to empty a list?
+empty()
+pop()
+remove()
+clear() (Correct)
+
+13. What is a tuple?
+It is a special data type used to represent large numbers.
+It is an immutable ordered sequence of values. (Correct)
+It is a mutable data type of a random sequence of values.
+It is a method used to add elements to a list.
+
+14. Which of the following is the correct way to unpack items from a tuple?
+developer = ('Alice', 34, 'Rust Developer')
+name, age, job == developer
+developer = ('Alice', 34, 'Rust Developer')
+(name, age, job) <= developer
+developer = ('Alice', 34, 'Rust Developer')
+name, age, job = developer (Correct)
+developer = ('Alice', 34, 'Rust Developer')
+<<name, age, job>> = developer
+
+15. What will be the result of the following code?
+developer = ('Jane Doe', 23, 'Python Developer')
+del developer[1]
+It will produce a RangeError.
+Nothing will happen.
+It will create an infinite loop.
+It will produce a TypeError. (Correct)
+
+16. What will be the result for the following code?
+programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python')
+programming_languages.index('Python', 3)
+5 (Correct)
+0
+2
+6
+
+17. Which of the following functions is used to create a new list of the sorted values?
+has_sort()
+is_sorted()
+sort()
+sorted() (Correct)
+
+18. Which of the following is the correct way to use a for loop?
+programming_languages = ['Rust', 'Java', 'Python', 'C++']
+for language of programming_languages:
+    print(language)
+
+programming_languages = ['Rust', 'Java', 'Python', 'C++']
+for language in programming_languages {
+    print(language)
+}
+
+programming_languages = ['Rust', 'Java', 'Python', 'C++'] (Correct)
+for language in programming_languages:
+    print(language)
+
+programming_languages = ['Rust', 'Java', 'Python', 'C++']
+for language in programming_languages [
+    print(language)
+]
+
+19. Which of the following functions is used to generate a sequence of integers?
+sequence()
+for()
+range() (Correct)
+int()
+
+20. Which of the following functions is used to iterate over multiple iterables in parallel?
+enumerate()
+reduce()
+filter()
+zip() (Correct)
